@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guide d'installation — Collectif Tariqa PRO</title>
+<meta name="description" content="Installer et utiliser les skills du Collectif Tariqa PRO, pas à pas, pour débutants complets.">
+<style>
+  :root{
+    --beige:#F4EFE5; --beige-2:#EDE6D6; --noir:#161413; --noir-2:#2c2722;
+    --or:#C29B45; --or-soft:#E8D9B5; --blanc:#FFFFFF; --gris:#6f675c;
+    --ok:#3f7a4f; --warn:#9a6a1f;
+    --radius:16px; --maxw:760px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    background:var(--beige); color:var(--noir);
+    line-height:1.65; -webkit-font-smoothing:antialiased;
+    padding:0 20px;
+  }
+  .wrap{max-width:var(--maxw);margin:0 auto}
+
+  /* HERO */
+  header{text-align:center;padding:64px 0 40px}
+  .kicker{letter-spacing:.28em;text-transform:uppercase;font-size:12px;color:var(--or);font-weight:700;margin-bottom:18px}
+  h1{font-size:clamp(30px,6vw,46px);line-height:1.1;font-weight:800;letter-spacing:-.02em}
+  h1 .or{color:var(--or)}
+  .tagline{margin-top:14px;font-style:italic;color:var(--gris);font-size:17px}
+  .sub{margin-top:22px;font-size:17px;color:var(--noir-2);max-width:540px;margin-left:auto;margin-right:auto}
+  .rule{width:54px;height:3px;background:var(--or);border-radius:3px;margin:30px auto 0}
+
+  /* SECTIONS */
+  section{margin:40px 0}
+  h2{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--or);font-weight:700;margin-bottom:8px}
+  .lead{font-size:24px;font-weight:800;letter-spacing:-.01em;margin-bottom:16px;line-height:1.25}
+
+  /* STEP CARD */
+  .step{
+    background:var(--blanc);border:1px solid var(--beige-2);
+    border-radius:var(--radius);padding:26px 26px 24px;margin:18px 0;
+    box-shadow:0 1px 0 rgba(0,0,0,.02);
+  }
+  .step-head{display:flex;align-items:center;gap:14px;margin-bottom:10px}
+  .num{
+    flex:0 0 auto;width:40px;height:40px;border-radius:50%;
+    background:var(--noir);color:var(--or);display:grid;place-items:center;
+    font-weight:800;font-size:18px;
+  }
+  .step-head h3{font-size:20px;font-weight:800;letter-spacing:-.01em}
+  .step p{margin:10px 0;color:var(--noir-2)}
+  .step ul{margin:10px 0 10px 4px;list-style:none}
+  .step ul li{position:relative;padding-left:24px;margin:7px 0;color:var(--noir-2)}
+  .step ul li::before{content:"";position:absolute;left:4px;top:11px;width:7px;height:7px;border-radius:50%;background:var(--or)}
+
+  /* COMMAND BLOCK */
+  .cmd{
+    position:relative;background:var(--noir);color:#f3ead6;
+    border-radius:12px;padding:16px 54px 16px 18px;margin:12px 0;
+    font-family:"SF Mono",Menlo,Consolas,monospace;font-size:14.5px;
+    overflow-x:auto;white-space:nowrap;
+  }
+  .cmd .copy{
+    position:absolute;right:8px;top:8px;background:var(--or);color:var(--noir);
+    border:none;border-radius:8px;padding:6px 10px;font-size:12px;font-weight:700;
+    cursor:pointer;font-family:inherit;
+  }
+  .cmd .copy:active{transform:scale(.96)}
+  .say{display:inline-block;background:var(--or-soft);color:var(--noir);
+    border-radius:10px;padding:10px 14px;margin:10px 0;font-weight:700}
+
+  /* CALLOUTS */
+  .note{border-radius:12px;padding:16px 18px;margin:16px 0;font-size:15px}
+  .note .t{font-weight:800;margin-bottom:4px;display:block}
+  .note.info{background:var(--or-soft);border-left:4px solid var(--or)}
+  .note.warn{background:#f7ecd8;border-left:4px solid var(--warn)}
+  .note.ok{background:#e8f0e6;border-left:4px solid var(--ok)}
+
+  /* OVERVIEW GRID */
+  .grid{display:grid;grid-template-columns:1fr;gap:12px;margin-top:8px}
+  @media(min-width:560px){.grid{grid-template-columns:1fr 1fr}}
+  .tile{background:var(--blanc);border:1px solid var(--beige-2);border-radius:14px;padding:18px}
+  .tile .e{font-size:22px}
+  .tile b{display:block;margin:6px 0 2px;font-size:16px}
+  .tile span{color:var(--gris);font-size:14px}
+
+  /* FAQ */
+  details{background:var(--blanc);border:1px solid var(--beige-2);border-radius:12px;padding:4px 18px;margin:10px 0}
+  details summary{cursor:pointer;font-weight:700;padding:12px 0;list-style:none}
+  details summary::-webkit-details-marker{display:none}
+  details summary::before{content:"+ ";color:var(--or);font-weight:800}
+  details[open] summary::before{content:"– "}
+  details p{padding:0 0 14px;color:var(--noir-2)}
+
+  /* FOOTER */
+  footer{text-align:center;padding:48px 0 60px;color:var(--gris)}
+  footer .brand{font-weight:800;color:var(--noir);font-size:18px}
+  footer .tg{color:var(--or);font-style:italic;margin-top:4px}
+  .bismillah{font-size:15px;color:var(--noir-2);margin-bottom:18px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="kicker">Collectif Tariqa PRO</div>
+    <h1>Installe tes <span class="or">outils</span>,<br>pose les bases de ton projet.</h1>
+    <p class="tagline">Entreprendre. Ensemble. Vers Dieu.</p>
+    <p class="sub">Un guide pas à pas, pensé pour quelqu'un qui n'y connaît <b>rien</b>. Si tu sais copier-coller, tu sais faire.</p>
+    <div class="rule"></div>
+  </header>
+
+  <section>
+    <h2>Ce que ça va t'apporter</h2>
+    <p class="lead">5 outils qui te posent les bonnes questions, dans le bon ordre.</p>
+    <div class="grid">
+      <div class="tile"><div class="e">🎯</div><b>Ta cible</b><span>À qui tu t'adresses, précisément.</span></div>
+      <div class="tile"><div class="e">📦</div><b>Ton offre</b><span>Ce que tu proposes, bien construit.</span></div>
+      <div class="tile"><div class="e">🧭</div><b>Ton positionnement</b><span>Pourquoi on te choisit toi.</span></div>
+      <div class="tile"><div class="e">🗣️</div><b>Ta voix</b><span>Comment écrire tes textes.</span></div>
+    </div>
+    <div class="note info"><span class="t">Tu n'as rien à mémoriser</span>Un seul outil — le <b>parcours</b> — te guide pour tout le reste, étape par étape.</div>
+  </section>
+
+  <section>
+    <h2>Installation</h2>
+    <p class="lead">3 étapes, une seule fois. Prends ton temps.</p>
+
+    <div class="step">
+      <div class="step-head"><div class="num">1</div><h3>Installe l'application Claude</h3></div>
+      <p>C'est l'endroit où tu vas « parler » à ton assistant. Tu as besoin de <b>Claude Code</b>.</p>
+      <ul>
+        <li>Va sur le site officiel : <b>claude.ai/download</b></li>
+        <li>Télécharge et installe l'application <b>Claude</b> sur ton ordinateur.</li>
+        <li>Ouvre-la, <b>connecte-toi</b> avec ton compte, puis va dans la partie <b>Code</b>.</li>
+      </ul>
+      <div class="note info"><span class="t">C'est quoi « la partie Code » ?</span>C'est juste une zone où tu peux écrire des commandes. Tu verras une ligne en bas pour taper. C'est là que tout se passe.</div>
+    </div>
+
+    <div class="step">
+      <div class="step-head"><div class="num">2</div><h3>Installe la boîte à outils du Collectif</h3></div>
+      <p>Tu vas taper <b>2 lignes</b>. Copie la première, colle-la, fais <b>Entrée</b>. Attends 2-3 secondes. Puis la deuxième.</p>
+      <div class="cmd"><button class="copy">Copier</button>/plugin marketplace add ZakiTariqaPRO/ctp-plugin</div>
+      <div class="cmd"><button class="copy">Copier</button>/plugin install collectif-tariqa-pro@ctp</div>
+      <div class="note ok"><span class="t">Important — tu ne télécharges RIEN à la main</span>Tu n'as <b>pas</b> besoin d'un compte GitHub. Tu ne vas <b>pas</b> sur un site pour télécharger. La commande va chercher la boîte à outils <b>toute seule</b>. Tu tapes, c'est tout.</div>
+      <p>Si on te demande d'autoriser quelque chose, dis <b>oui</b>. Une fois installé, c'est fini <b>pour toujours</b> (sauf mises à jour, voir plus bas).</p>
+    </div>
+
+    <div class="step">
+      <div class="step-head"><div class="num">3</div><h3>Lance ton parcours</h3></div>
+      <p>Maintenant, oublie les commandes compliquées. Écris simplement, en français normal :</p>
+      <div class="say">lance le parcours CTP</div>
+      <p>L'assistant regarde où tu en es, t'affiche ta progression, et démarre la première étape. Tu n'as plus qu'à <b>répondre à ses questions</b>.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Pendant le parcours</h2>
+    <p class="lead">Le principe est toujours le même. Détends-toi.</p>
+    <div class="step">
+      <ul>
+        <li><b>Une question à la fois.</b> Tu réponds avec tes mots, même imparfaits.</li>
+        <li>Tu sais pas ? Dis <b>« je sais pas »</b> ou <b>« plus tard »</b> → il passe à la suite. Jamais bloqué.</li>
+        <li>Question dure ? Dis <b>« aide-moi à répondre »</b> → il te donne des pistes (mais c'est <b>ta</b> réponse qui compte).</li>
+        <li>Il te fait des <b>récaps</b> et te demande si c'est bon. Tu valides ou tu corriges.</li>
+        <li>Ton travail est <b>sauvegardé tout seul</b>. Tu t'arrêtes et reprends quand tu veux.</li>
+      </ul>
+      <div class="note info"><span class="t">Pour reprendre plus tard</span>Retape simplement <b>« lance le parcours CTP »</b> : il se souvient de tout et repart là où tu t'étais arrêté.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>À la fin</h2>
+    <p class="lead">Génère ton récapitulatif et envoie-le.</p>
+    <div class="step">
+      <p>Quand tu as avancé, écris :</p>
+      <div class="say">export CTP</div>
+      <p>Il rassemble tout ton travail dans <b>un seul document</b>, avec un tableau qui montre ce qui est fait et ce qui reste. Tu obtiens aussi un <b>résumé court</b> à copier-coller. Envoie-le à ton accompagnateur — il voit ton avancement d'un coup d'œil.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Questions fréquentes</h2>
+    <details><summary>Je dois m'y connaître en informatique ?</summary><p>Non. Tu copies-colles 2 lignes une fois, puis tu écris en français normal. C'est tout.</p></details>
+    <details><summary>C'est quoi « GitHub » ? Je dois créer un compte ?</summary><p>Non, tu n'as rien à faire avec GitHub. C'est juste l'endroit où la boîte à outils est rangée. La commande va la chercher pour toi automatiquement.</p></details>
+    <details><summary>Je peux m'arrêter en plein milieu ?</summary><p>Oui. Tout est sauvegardé. Tu reprends quand tu veux avec « lance le parcours CTP ».</p></details>
+    <details><summary>J'ai dit une bêtise, je peux corriger ?</summary><p>Oui. Relance l'étape concernée et dis ce qui change. Rien n'est supprimé sans te demander.</p></details>
+    <details><summary>Une commande ne marche pas ?</summary><p>Vérifie le « / » au début et qu'il n'y a pas d'espace en trop. Réessaie. Toujours bloqué ? Fais une capture d'écran et envoie-la à ton accompagnateur.</p></details>
+    <details><summary>Comment je reçois les mises à jour ?</summary><p>Quand le Collectif améliore les outils, retape&nbsp;: <code>/plugin install collectif-tariqa-pro@ctp</code>. Ton travail reste intact.</p></details>
+  </section>
+
+  <footer>
+    <p class="bismillah">Bismillah, et bon parcours. On avance — ensemble.</p>
+    <div class="brand">Collectif Tariqa PRO</div>
+    <div class="tg">Entreprendre. Ensemble. Vers Dieu.</div>
+  </footer>
+
+</div>
+
+<script>
+  document.querySelectorAll('.cmd .copy').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var txt=btn.parentNode.textContent.replace('Copier','').trim();
+      navigator.clipboard.writeText(txt).then(function(){
+        var old=btn.textContent;btn.textContent='Copié ✓';
+        setTimeout(function(){btn.textContent=old;},1500);
+      });
+    });
+  });
+</script>
+</body>
+</html>
