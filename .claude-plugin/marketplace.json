@@ -1,0 +1,17 @@
+{
+  "name": "ctp",
+  "owner": {
+    "name": "Collectif Tariqa PRO",
+    "email": "zaki@tariqa.pro"
+  },
+  "description": "Marketplace du Collectif Tariqa PRO — skills méthode pour les membres.",
+  "plugins": [
+    {
+      "name": "collectif-tariqa-pro",
+      "source": "./",
+      "description": "Parcours guidé CTP : persona, offre, positionnement (+ différenciateur), voix/copywriting, audit de cohérence Tariqa PRO, et export vérifiable.",
+      "category": "methode",
+      "keywords": ["tariqa-pro", "entrepreneuriat", "marketing"]
+    }
+  ]
+}
