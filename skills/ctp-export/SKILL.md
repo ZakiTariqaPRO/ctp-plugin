@@ -35,8 +35,13 @@ d'un coup d'œil : qui a vraiment fait le travail, et où ça reste à compléte
    de chaque doc.
 5. **Produire aussi un bloc copier-coller court** (résumé + scorecard) à coller
    directement dans un message — dans un bloc de code.
-6. Proposer un **export HTML** lisible si demandé (un seul fichier autonome).
-7. **Garde-fous CTP avant export** : vérifier qu'aucun chiffre d'argent ni mot
+6. **Mettre à jour le document de référence vivant** `ctp/REFERENCE-<slug>.md`
+   (voir section dédiée) — c'est le doc consolidé à consulter pour toute la suite.
+7. Proposer un **export HTML** lisible si demandé (un seul fichier autonome), et un
+   **PDF** si le membre veut l'envoyer/imprimer (générer via l'outil PDF, ou « Imprimer
+   → Enregistrer en PDF » depuis le HTML).
+8. **Inviter à publier dans le Collectif Tariqa PRO** (voir section dédiée).
+9. **Garde-fous CTP avant export** : vérifier qu'aucun chiffre d'argent ni mot
    interdit ne traîne dans les docs ; si oui, le signaler (ne pas bloquer l'export,
    mais avertir). Recommander un dernier `ctp-compliant` si pas fait.
 
@@ -94,6 +99,34 @@ Persona ✅ · Offre 🟡 · Positionnement ⬜ · Voix ⬜ · Compliance ⬜
 Points ouverts : <n>
 Fichier complet : ctp/EXPORT-<slug>-<date>.md
 ```
+
+## Le document de référence vivant — `ctp/REFERENCE-<slug>.md`
+
+En plus des exports datés (photos figées), maintenir **un seul** document vivant qui
+représente l'**état courant consolidé** du projet : `ctp/REFERENCE-<slug>.md`.
+
+- **Écrasé à chaque export** (≠ les `EXPORT-<slug>-<date>.md` qui s'accumulent comme
+  historique). C'est la **source consolidée à jour**.
+- **À consulter pour toute la suite du projet.** C'est le mémo central : avant de
+  coacher, d'écrire un contenu, de prendre une décision, on relit cette référence pour
+  rester cohérent avec la cible, l'offre, le positionnement et la voix déjà définis.
+  Les autres skills (parcours, voix, coach-zaki…) doivent le lire en priorité s'il existe.
+- Même structure que le gabarit d'export (en-tête + scorecard + contenu intégral), mais
+  daté « dernière mise à jour : <AAAA-MM-JJ> ».
+
+## Publier dans le Collectif Tariqa PRO (Circle)
+
+L'export n'a de valeur que s'il est **partagé** : l'animateur (Zaki) le voit, le membre
+s'engage devant le collectif, et chacun publie son avancement au fur et à mesure.
+
+- Après l'export, **inviter le membre à le publier dans l'espace dédié** du Collectif
+  Tariqa PRO sur Circle : **[Espace plugin CTP — lien à insérer]**.
+- Format au choix du membre : **coller le bloc copier-coller** (résumé + scorecard) ou
+  **uploader le PDF** complet.
+- Le skill ne poste pas à la place du membre (il n'a pas accès à Circle) : il prépare le
+  contenu prêt à coller/joindre et donne le lien de l'espace.
+- Tonalité : « Publie ton livrable dans l'espace du Collectif Tariqa PRO — comme ça Zaki
+  voit ton travail et tu t'engages devant le groupe. »
 
 ## Garde-fous
 

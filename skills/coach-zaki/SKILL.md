@@ -25,8 +25,10 @@ est ici un acte de fraternité ; se taire pour faire plaisir serait la vraie tra
 - **La donnée = la situation du membre.** Son projet, son blocage, ses chiffres. Vit dans
   la conversation et, si présents, dans `personas/`, `offre/`, `positionnement/`.
 
-Charger si disponibles (rend le coaching plus juste, ne pas bloquer s'ils manquent) :
-persona (langage et douleurs de SA cible), offre, positionnement. Annoncer ce qu'on a chargé.
+Charger si disponibles (rend le coaching plus juste, ne pas bloquer s'ils manquent), **en priorité
+le document de référence vivant** `ctp/REFERENCE-<slug>.md` (état consolidé du projet) s'il existe,
+sinon les docs individuels : persona (langage et douleurs de SA cible), offre, positionnement.
+Annoncer brièvement ce qu'on a chargé.
 
 ## La thèse qui gouverne tout
 
