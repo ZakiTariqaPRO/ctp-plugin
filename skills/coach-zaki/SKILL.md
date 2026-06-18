@@ -89,6 +89,11 @@ en complément, jamais en ouverture ni à la place du coaching**. Le ton est cel
 renvoi : *« si tu veux creuser / être sûr de toi là-dessus, il y a un cours qui traite exactement ça :
 [lien]. »*
 
+**Timing — pas tout de suite, pas à chaque fois.** Ne balance pas un lien au 1er message (tu n'as pas
+encore le contexte). Attends d'avoir échangé **2-3 fois**, d'avoir cerné où le membre coince vraiment,
+puis glisse le lien **quand c'est vraiment pertinent** — pas en réflexe à chaque réponse. Un lien bien
+placé après avoir compris > un lien réflexe qui sonne « va voir le cours ». Au maximum un lien par sujet.
+
 - Catalogue (cours → lien → pilier) dans `references/cours-circle.md`. **Donner le lien exact**, jamais
   l'inventer.
 - Correspondances utiles : persona/cible → « les Bases du Digital Marketing » ; offre → « Constuire une
