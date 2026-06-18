@@ -1,6 +1,6 @@
 ---
 name: ctp-export
-description: Compile tous les livrables CTP d'un projet (persona, offre, positionnement, voix, compliance) en un seul fichier texte vérifiable, avec un scorecard de complétion (ce qui est rempli vs à préciser), pour que le membre puisse l'envoyer et que l'animateur vérifie le travail. Use when the user asks "exporter mon travail CTP", "générer le livrable", "compiler mes docs", "export CTP", "préparer pour envoi", "rapport de mon projet", or wants a single shareable text of all CTP work.
+description: Compile tous les livrables CTP d'un projet (persona, offre, positionnement, voix, compliance) en un seul fichier vérifiable avec scorecard de complétion, GÉNÈRE un pitch puissant (méthode SIRA, < 3 min) à partir de toutes les données, et maintient un document de référence vivant consulté pour la suite du projet. Use when the user asks "exporter mon travail CTP", "générer le livrable", "compiler mes docs", "export CTP", "préparer pour envoi", "rapport de mon projet", "génère mon pitch", "crée mon pitch", "mon elevator pitch", or wants a single shareable text of all CTP work.
 metadata:
   version: 1.0.0
   category: tariqa-pro
@@ -35,13 +35,16 @@ d'un coup d'œil : qui a vraiment fait le travail, et où ça reste à compléte
    de chaque doc.
 5. **Produire aussi un bloc copier-coller court** (résumé + scorecard) à coller
    directement dans un message — dans un bloc de code.
-6. **Mettre à jour le document de référence vivant** `ctp/REFERENCE-<slug>.md`
+6. **Générer le PITCH (méthode SIRA)** à partir de persona/offre/positionnement/voix —
+   suivre `references/pitch.md`. L'inclure dans l'export ET dans le doc de référence.
+   Si une brique manque (ex. offre non définie), faire un pitch partiel + le signaler.
+7. **Mettre à jour le document de référence vivant** `ctp/REFERENCE-<slug>.md`
    (voir section dédiée) — c'est le doc consolidé à consulter pour toute la suite.
-7. Proposer un **export HTML** lisible si demandé (un seul fichier autonome), et un
+8. Proposer un **export HTML** lisible si demandé (un seul fichier autonome), et un
    **PDF** si le membre veut l'envoyer/imprimer (générer via l'outil PDF, ou « Imprimer
    → Enregistrer en PDF » depuis le HTML).
-8. **Inviter à publier dans le Collectif Tariqa PRO** (voir section dédiée).
-9. **Garde-fous CTP avant export** : vérifier qu'aucun chiffre d'argent ni mot
+9. **Inviter à publier dans le Collectif Tariqa PRO** (voir section dédiée).
+10. **Garde-fous CTP avant export** : vérifier qu'aucun chiffre d'argent ni mot
    interdit ne traîne dans les docs ; si oui, le signaler (ne pas bloquer l'export,
    mais avertir). Recommander un dernier `ctp-compliant` si pas fait.
 
@@ -86,6 +89,11 @@ d'un coup d'œil : qui a vraiment fait le travail, et où ça reste à compléte
 ---
 ## ✓ Compliance
 <contenu intégral de ctp/tariqa-compliance.md>
+
+---
+## ★ Pitch (méthode SIRA)
+<pitch court ~30 s> · <pitch complet < 3 min : hook + Situation + Impact + Résolution + Appel à l'action>
+<3-5 punchlines marketing réutilisables> — généré selon references/pitch.md, dans la voix du membre.
 ```
 
 ## Bloc copier-coller (pour envoi rapide)
