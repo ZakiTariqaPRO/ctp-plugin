@@ -161,27 +161,26 @@
     </div>
 
     <div class="step">
-      <div class="step-head"><div class="num">2</div><h3>Télécharge ton dossier de démarrage</h3></div>
-      <p>Un seul clic. C'est ton espace de travail tout prêt — la boîte à outils est déjà configurée dedans.</p>
-      <p><a class="dl" href="Demarrer-CTP.zip" download><b>⬇️ Télécharger Demarrer-CTP.zip</b></a></p>
-      <p>Le fichier arrive dans ton dossier <b>Téléchargements</b>. Il faut le <b>décompresser</b> (= en sortir un vrai dossier) :</p>
-      <ul>
-        <li>🍎 <b>Mac</b> : double-clique le fichier. Un dossier <b>Demarrer-CTP</b> apparaît à côté.</li>
-        <li>🪟 <b>Windows</b> : <b>clic droit</b> sur le fichier → <b>Extraire tout…</b> → <b>Extraire</b>. (Un simple double-clic n'extrait rien !)</li>
-      </ul>
-      <p>Range le dossier <b>Demarrer-CTP</b> où tu veux (ex. ton Bureau).</p>
-    </div>
-
-    <div class="step">
-      <div class="step-head"><div class="num">3</div><h3>Ouvre le dossier dans Claude</h3></div>
+      <div class="step-head"><div class="num">2</div><h3>Ouvre un dossier de travail dans Claude</h3></div>
+      <p>Tu as besoin d'un dossier où Claude rangera ton travail. Crée un dossier vide sur ton ordinateur (par ex. nomme-le <b>CTP</b>, sur ton Bureau), puis ouvre-le dans Claude :</p>
       <ul>
         <li>Dans Claude, clique l'onglet <b>Code</b> (en haut).</li>
         <li>Pour ajouter ton dossier, clique l'<b>icône dossier avec un +</b> (au-dessus de la liste de tes dossiers). <span style="color:var(--gris)">La toute première fois, tu peux voir à la place un choix <b>Local</b> puis un bouton <b>Select folder</b> : c'est pareil, ça sert à choisir un dossier.</span></li>
-        <li>Sélectionne le dossier <b>Demarrer-CTP</b> que tu viens de décompresser.</li>
-        <li>Une fenêtre de sécurité demande si tu <b>fais confiance</b> à ce dossier (« trust ») → c'est normal, clique <b>Oui / Trust</b>. (Si tu cliques Non, rien ne s'installera.)</li>
-        <li>Claude te propose alors d'<b>installer la boîte à outils</b> du Collectif → <b>accepte</b> (Install).</li>
+        <li>Sélectionne ton dossier <b>CTP</b>.</li>
+        <li>Une fenêtre de sécurité demande si tu <b>fais confiance</b> à ce dossier (« trust ») → c'est normal, clique <b>Oui / Trust</b>.</li>
       </ul>
-      <div class="note ok"><span class="t">✅ Comment savoir que c'est bon</span>Une fois accepté, le Collectif est installé — c'est fait une fois, pour toujours. Tu n'as tapé aucune commande. Passe à l'étape 4 : si « lance le parcours CTP » fonctionne, c'est que tout est en place.</div>
+    </div>
+
+    <div class="step">
+      <div class="step-head"><div class="num">3</div><h3>Installe la boîte à outils du Collectif</h3></div>
+      <p>Dans la zone de discussion (en bas), <b>colle ce message</b> et envoie. C'est tout — Claude s'occupe d'installer la boîte à outils :</p>
+      <div class="cmd"><button class="copy">Copier</button>Installe le plugin du Collectif Tariqa PRO depuis ce lien : https://github.com/ZakiTariqaPRO/ctp-plugin.git</div>
+      <ul>
+        <li>Si Claude demande d'<b>autoriser</b> quelque chose (la marketplace, l'installation) → réponds <b>oui</b>.</li>
+        <li>Laisse-le finir. Quand c'est bon, il te le confirme.</li>
+      </ul>
+      <div class="note ok"><span class="t">✅ Comment savoir que c'est bon</span>Passe à l'étape 4 : si <b>« lance le parcours CTP »</b> est reconnu et démarre, c'est que tout est en place. Sinon, ferme et rouvre Claude, puis renvoie le message ci-dessus.</div>
+      <div class="note info"><span class="t">Mises à jour automatiques</span>Quand le Collectif améliore les outils, tu n'as rien à réinstaller : tu reçois les nouveautés. Si besoin, dis simplement à Claude : « mets à jour le plugin du Collectif Tariqa PRO ».</div>
     </div>
 
     <div class="step">
@@ -235,13 +234,11 @@
 
   <section>
     <h2>Questions fréquentes</h2>
-    <details><summary>Je dois m'y connaître en informatique ?</summary><p>Non. Tu télécharges un dossier, tu l'ouvres dans Claude, tu dis « oui ». Ensuite tu écris en français normal. Aucune commande.</p></details>
-    <details><summary>C'est quoi « GitHub » ? Je dois créer un compte ?</summary><p>Non, tu n'as rien à faire avec GitHub ni aucun compte technique. Le dossier de démarrage va chercher la boîte à outils tout seul.</p></details>
-    <details><summary>Rien ne s'installe quand j'ouvre le dossier ?</summary><p>Vérifie que tu as bien <b>décompressé</b> le .zip (pas ouvert depuis l'archive), que tu ouvres bien le dossier <b>Demarrer-CTP</b> dans la partie <b>Code</b> de Claude, et que tu as répondu <b>Oui</b> à la demande de confiance. Toujours bloqué ? Ferme et rouvre Claude, ou envoie une capture à ton accompagnateur.</p></details>
+    <details><summary>Je dois m'y connaître en informatique ?</summary><p>Non. Tu installes Claude, tu ouvres un dossier, tu colles un message. Ensuite tu écris en français normal. Aucune commande technique.</p></details>
+    <details><summary>« lance le parcours CTP » n'est pas reconnu / rien ne se passe</summary><p>C'est que la boîte à outils n'est pas encore installée. Reviens à l'étape 3 et <b>renvoie le message d'installation</b> (avec le lien). Puis <b>ferme et rouvre Claude</b>, rouvre ton dossier, et réessaie. Sur Windows, vérifie que <b>Git</b> est bien installé (voir le guide détaillé). Toujours bloqué ? Envoie une capture à ton accompagnateur.</p></details>
     <details><summary>Je peux m'arrêter en plein milieu ?</summary><p>Oui. Tout est sauvegardé dans ton dossier. Tu reprends quand tu veux avec « lance le parcours CTP ».</p></details>
     <details><summary>J'ai dit une bêtise, je peux corriger ?</summary><p>Oui. Relance l'étape concernée et dis ce qui change. Rien n'est supprimé sans te demander.</p></details>
-    <details><summary>Comment je reçois les mises à jour ?</summary><p>Automatiquement : quand le Collectif améliore les outils, tu en profites en rouvrant ton dossier dans Claude. Si une nouveauté n'apparaît pas, ferme et rouvre Claude, ou demande à ton accompagnateur.</p></details>
-    <details><summary>Je suis à l'aise avec le terminal — y a plus rapide ?</summary><p>Oui. Dans le terminal <code>claude</code> (CLI), tape&nbsp;: <code>/plugin marketplace add ZakiTariqaPRO/ctp-plugin</code> puis <code>/plugin install collectif-tariqa-pro@ctp</code>. (Ces commandes <b>ne marchent que dans le CLI terminal</b>, pas dans la partie Code de l'app Desktop — d'où le dossier de démarrage pour tout le monde.)</p></details>
+    <details><summary>Comment je reçois les mises à jour ?</summary><p>Quand le Collectif améliore les outils, tu en profites sans rien réinstaller. Si une nouveauté n'apparaît pas, dis à Claude : <b>« mets à jour le plugin du Collectif Tariqa PRO »</b>.</p></details>
   </section>
 
   <footer>
