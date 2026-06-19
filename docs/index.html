@@ -72,6 +72,13 @@
   a.dl{display:inline-block;background:var(--or);color:var(--noir);text-decoration:none;
     border-radius:12px;padding:14px 22px;margin:6px 0;font-size:17px;font-weight:800}
   a.dl:hover{filter:brightness(1.05)}
+  .os{border:1px solid #e7ddc9;border-radius:14px;padding:16px 18px;margin:12px 0}
+  .os h4{margin:0 0 8px;font-size:17px}
+  .shot{border:2px dashed #cdbf9f;border-radius:12px;background:#faf6ee;color:#8a7a54;
+    padding:26px 16px;margin:12px 0;text-align:center;font-size:14px;font-weight:600}
+  .shot img{max-width:100%;border-radius:8px;display:block}
+  a.video{display:inline-block;background:var(--noir);color:#fff;text-decoration:none;
+    border-radius:12px;padding:12px 20px;margin:6px 0;font-weight:700}
 
   /* CALLOUTS */
   .note{border-radius:12px;padding:16px 18px;margin:16px 0;font-size:15px}
@@ -131,14 +138,39 @@
     <h2>Installation</h2>
     <p class="lead">4 étapes, une seule fois. Aucune commande compliquée. Prends ton temps.</p>
 
+    <div class="note info"><span class="t">▶️ Tu préfères suivre en vidéo ?</span>
+      Regarde le tuto pas-à-pas (≈ 5 min), puis reviens ici si besoin.<br>
+      <a class="video" href="REMPLACER_PAR_LIEN_VIDEO" target="_blank" rel="noopener">Regarder le tuto vidéo</a>
+    </div>
+
     <div class="step">
       <div class="step-head"><div class="num">1</div><h3>Installe l'application Claude</h3></div>
-      <p>C'est l'endroit où tu vas « parler » à ton assistant.</p>
-      <ul>
-        <li>Va sur le site officiel : <b>claude.ai/download</b></li>
-        <li>Télécharge et installe l'application <b>Claude</b> sur ton ordinateur.</li>
-        <li>Ouvre-la et <b>connecte-toi</b> avec ton compte, puis va dans la partie <b>Code</b>.</li>
-      </ul>
+      <p>C'est l'endroit où tu vas « parler » à ton assistant. Suis la partie qui correspond à ton ordinateur.</p>
+
+      <div class="os">
+        <h4>🍎 Sur Mac</h4>
+        <ul>
+          <li>Va sur <b>claude.ai/download</b> et télécharge <b>Claude pour Mac</b>.</li>
+          <li>Ouvre le fichier téléchargé et glisse <b>Claude</b> dans tes Applications.</li>
+          <li>Lance Claude, <b>connecte-toi</b> avec ton compte.</li>
+        </ul>
+        <div class="note ok"><span class="t">Rien d'autre à installer</span>Sur Mac, tout est inclus. Aucun prérequis technique.</div>
+        <div class="shot">📷 Capture à ajouter : écran de téléchargement sur claude.ai/download (Mac)</div>
+      </div>
+
+      <div class="os">
+        <h4>🪟 Sur Windows</h4>
+        <ul>
+          <li><b>Étape importante d'abord :</b> installe <b>Git pour Windows</b> → <b>git-scm.com/downloads/win</b>. Lance l'installateur et clique « Suivant » jusqu'au bout (laisse tout par défaut). Sans ça, la boîte à outils ne pourra pas s'installer.</li>
+          <li>Ensuite va sur <b>claude.ai/download</b> et télécharge <b>Claude pour Windows</b>.</li>
+          <li>Installe-le, lance Claude, <b>connecte-toi</b> avec ton compte.</li>
+        </ul>
+        <div class="note warn"><span class="t">Ne saute pas Git sur Windows</span>C'est ce qui permet à la boîte à outils de s'installer toute seule. 2 minutes, une seule fois.</div>
+        <div class="shot">📷 Capture à ajouter : page git-scm.com/downloads/win + écran de téléchargement Claude (Windows)</div>
+      </div>
+
+      <p>Une fois Claude ouvert, clique sur l'onglet <b>Code</b> en haut de l'application.</p>
+      <div class="shot">📷 Capture à ajouter : l'app Claude avec l'onglet « Code » entouré</div>
     </div>
 
     <div class="step">
@@ -151,10 +183,13 @@
     <div class="step">
       <div class="step-head"><div class="num">3</div><h3>Ouvre le dossier dans Claude</h3></div>
       <ul>
-        <li>Dans Claude, partie <b>Code</b> → <b>Ouvrir un dossier</b> → choisis le dossier <b>Demarrer-CTP</b>.</li>
+        <li>Dans Claude, clique l'onglet <b>Code</b>.</li>
+        <li>Choisis <b>Local</b>, puis clique <b>Select folder</b> (Choisir un dossier).</li>
+        <li>Sélectionne le dossier <b>Demarrer-CTP</b> que tu viens de décompresser.</li>
         <li>Claude demande si tu <b>fais confiance</b> à ce dossier → réponds <b>Oui</b> (Trust).</li>
       </ul>
       <div class="note ok"><span class="t">La boîte à outils s'installe TOUTE SEULE</span>Pas de commande à taper, pas de compte GitHub. En ouvrant le dossier et en disant « oui », le Collectif s'installe automatiquement. C'est fait une fois, pour toujours.</div>
+      <div class="shot">📷 Capture à ajouter : onglet Code → Local → Select folder, puis la fenêtre « faire confiance »</div>
     </div>
 
     <div class="step">
