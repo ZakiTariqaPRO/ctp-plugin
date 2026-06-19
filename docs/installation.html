@@ -61,6 +61,11 @@
     <a class="back" href="index.html">← Revenir à la page principale</a>
   </header>
 
+  <div class="note warn"><span class="t">⚠️ Prérequis : un abonnement Claude payant</span>
+    La partie <b>Code</b> de Claude nécessite un <b>abonnement Pro ou Max</b> (un compte gratuit ne suffit pas).
+    Assure-toi d'avoir ça avant de commencer.
+  </div>
+
   <div class="note ok"><span class="t">Pourquoi Git ?</span>
     « Git » est un petit outil gratuit qui permet à Claude d'aller chercher la boîte à outils du Collectif.
     Sans lui, l'installation automatique ne se fait pas. C'est à installer <b>une seule fois</b>.
@@ -82,24 +87,25 @@
     </div>
 
     <div class="step">
-      <div class="step-head"><div class="num">2</div><h3>Installe Git (les « outils ligne de commande »)</h3></div>
-      <p>Sur Mac, Git s'installe via les « outils de développement en ligne de commande » d'Apple. Deux méthodes — prends la plus simple :</p>
-      <p><b>Méthode A (la plus simple, sans rien taper) :</b></p>
+      <div class="step-head"><div class="num">2</div><h3>Vérifie / installe Git</h3></div>
+      <p>Beaucoup de Mac ont déjà Git. On vérifie d'abord, on installe seulement si besoin.</p>
+      <p><b>1) Vérifie :</b></p>
       <ul>
-        <li>Quand Claude (ou Mac) a besoin de Git, une fenêtre apparaît : <b>« L'outil "git" nécessite les outils de développement en ligne de commande »</b>.</li>
-        <li>Clique <b>Installer</b>, accepte, et attends la fin (quelques minutes).</li>
-      </ul>
-      <p><b>Méthode B (si la fenêtre n'apparaît pas) :</b></p>
-      <ul>
-        <li>Ouvre l'app <b>Terminal</b> (cherche « Terminal » avec ⌘ + Espace).</li>
+        <li>Ouvre l'app <b>Terminal</b> (appuie sur <b>⌘ + Espace</b>, tape « Terminal », Entrée — c'est la recherche Spotlight de Mac).</li>
         <li>Copie-colle cette ligne, puis appuie sur <b>Entrée</b> :</li>
       </ul>
+      <p><code>git --version</code></p>
+      <ul>
+        <li>Si un numéro s'affiche (ex. <code>git version 2.39.x</code>) → <b>Git est déjà là</b>, passe à l'étape 3. ✅</li>
+        <li>Si une fenêtre te propose d'<b>installer les outils de développement en ligne de commande</b> → clique <b>Installer</b> et attends la fin. Git sera alors prêt.</li>
+      </ul>
+      <p><b>2) Si rien ne s'est passé</b>, tape cette ligne dans le Terminal puis Entrée :</p>
       <p><code>xcode-select --install</code></p>
       <ul>
-        <li>Une fenêtre s'ouvre → clique <b>Installer</b> et attends la fin.</li>
+        <li>Une fenêtre s'ouvre → clique <b>Installer</b>, attends quelques minutes. (Si le message dit « already installed », c'est que Git est déjà là — tout va bien.)</li>
       </ul>
-      <div class="note info"><span class="t">Pas besoin de Homebrew</span>Tu n'as PAS besoin d'installer Homebrew ni quoi que ce soit d'autre. Les outils Apple suffisent.</div>
-      <div class="shot">📷 Capture : la fenêtre Mac « Installer les outils de développement en ligne de commande »</div>
+      <div class="note info"><span class="t">Pas besoin de Homebrew</span>Tu n'as PAS besoin d'Homebrew ni d'autre chose. Les outils Apple suffisent. Le Terminal, c'est juste pour cette vérif — tu ne t'en serviras plus ensuite.</div>
+      <div class="shot">📷 Capture : Terminal avec « git --version » + la fenêtre « Installer les outils… »</div>
     </div>
 
     <div class="step">
@@ -117,12 +123,11 @@
     <div class="step">
       <div class="step-head"><div class="num">1</div><h3>Installe Git pour Windows (à faire EN PREMIER)</h3></div>
       <ul>
-        <li>Va sur <b>git-scm.com/downloads/win</b> et télécharge <b>Git for Windows</b> (64-bit dans la majorité des cas).</li>
-        <li>Ouvre le fichier téléchargé.</li>
-        <li>Clique <b>Next / Suivant</b> à chaque écran <b>sans rien changer</b> (laisse toutes les options par défaut), puis <b>Install</b>.</li>
-        <li>Attends la fin, puis clique <b>Finish</b>.</li>
+        <li>Va sur <b>git-scm.com/downloads/win</b> et clique le bouton de téléchargement <b>proposé par défaut</b> (il choisit la bonne version tout seul).</li>
+        <li>Ouvre le fichier téléchargé. Si Windows affiche <b>« Windows a protégé votre PC »</b> → clique <b>Informations complémentaires</b> puis <b>Exécuter quand même</b> (c'est sûr).</li>
+        <li>Clique <b>Next / Suivant</b> à chaque écran <b>sans rien changer</b> (laisse tout par défaut), puis <b>Install</b>, puis <b>Finish</b>.</li>
       </ul>
-      <div class="note warn"><span class="t">Ne saute pas cette étape</span>Sans Git, la boîte à outils du Collectif ne pourra pas s'installer. C'est rapide et gratuit.</div>
+      <div class="note warn"><span class="t">Ne saute pas cette étape</span>Sans Git, la boîte à outils du Collectif ne pourra pas s'installer. Les écrans de l'installateur sont techniques : laisse simplement tout par défaut, c'est très bien.</div>
       <div class="shot">📷 Capture : page git-scm.com/downloads/win + écran « Next/Install » de l'installateur</div>
     </div>
 
@@ -130,10 +135,11 @@
       <div class="step-head"><div class="num">2</div><h3>Installe l'application Claude</h3></div>
       <ul>
         <li>Va sur <b>claude.ai/download</b> et clique <b>Download for Windows</b>.</li>
-        <li>Ouvre le fichier téléchargé et installe-le (clique « Suivant » jusqu'au bout).</li>
-        <li>Lance <b>Claude</b> depuis le menu Démarrer et <b>connecte-toi</b>.</li>
+        <li>Ouvre le fichier téléchargé et installe-le (« Suivant » jusqu'au bout). Même avertissement Windows possible → <b>Exécuter quand même</b>.</li>
+        <li>Lance <b>Claude</b> depuis le menu Démarrer et <b>connecte-toi</b> (abonnement Pro/Max).</li>
       </ul>
-      <div class="note info"><span class="t">Pas besoin de WSL</span>L'application Claude fonctionne directement sur Windows. Tu n'as rien d'autre à installer.</div>
+      <div class="note warn"><span class="t">Important : redémarre Claude après Git</span>Si tu avais déjà ouvert Claude avant d'installer Git, <b>ferme-le complètement et rouvre-le</b> — sinon il ne verra pas Git.</div>
+      <div class="note info"><span class="t">Pas besoin de WSL</span>L'application Claude fonctionne directement sur Windows. Rien d'autre à installer.</div>
       <div class="shot">📷 Capture : page claude.ai/download (Windows)</div>
     </div>
 
