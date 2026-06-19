@@ -25,6 +25,27 @@ faire ensuite.
 **Compliance** n'est pas une étape de fin : c'est un **checkpoint transverse**.
 Le recommander après l'offre, après le positionnement, et sur tout contenu produit.
 
+## Au tout premier lancement — présenter Coach Zaki et régler son mode
+
+Si le fichier `ctp/coach-mode.md` **n'existe pas** (= premier lancement du parcours pour ce projet),
+avant de scanner, présenter **Coach Zaki** et demander comment le membre veut qu'il se comporte :
+
+> « Dans ce parcours, tu n'es pas seul : **Coach Zaki** t'accompagne. Son rôle, c'est de te
+> **challenger** — te dire les choses franchement, casser les excuses, te pousser à passer à l'action —
+> pas de te flatter. Deux modes :
+> 1. **Actif (recommandé)** — il intervient tout au long du parcours : dès que tu restes flou, que tu
+>    te racontes une histoire ou que tu te contentes du minimum, il te reprend, là, sur le moment.
+> 2. **Sur demande** — il n'intervient que quand tu l'appelles (« coache-moi »).
+>
+> Par défaut je le mets en **Actif**, parce que c'est tout l'intérêt : sans ça, on retombe vite dans
+> le confort et la complaisance. Tu confirmes **Actif**, ou tu préfères **sur demande** ? »
+
+Puis **écrire le choix** dans `ctp/coach-mode.md` (une ligne : `mode: actif` ou `mode: sur-demande`,
++ date). Rappeler qu'on peut changer à tout moment (« passe Coach Zaki en sur-demande / en actif »).
+Le défaut, si le membre ne tranche pas, est **actif**.
+
+Ce réglage est lu par le skill `coach-zaki` (voir sa section « Modes »).
+
 ## Ce que fait ce skill à chaque déclenchement
 
 1. **Scanner le projet** — vérifier la présence ET le remplissage de :
