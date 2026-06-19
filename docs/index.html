@@ -69,6 +69,9 @@
   .cmd .copy:active{transform:scale(.96)}
   .say{display:inline-block;background:var(--or-soft);color:var(--noir);
     border-radius:10px;padding:10px 14px;margin:10px 0;font-weight:700}
+  a.dl{display:inline-block;background:var(--or);color:var(--noir);text-decoration:none;
+    border-radius:12px;padding:14px 22px;margin:6px 0;font-size:17px;font-weight:800}
+  a.dl:hover{filter:brightness(1.05)}
 
   /* CALLOUTS */
   .note{border-radius:12px;padding:16px 18px;margin:16px 0;font-size:15px}
@@ -126,33 +129,39 @@
 
   <section>
     <h2>Installation</h2>
-    <p class="lead">3 étapes, une seule fois. Prends ton temps.</p>
+    <p class="lead">4 étapes, une seule fois. Aucune commande compliquée. Prends ton temps.</p>
 
     <div class="step">
       <div class="step-head"><div class="num">1</div><h3>Installe l'application Claude</h3></div>
-      <p>C'est l'endroit où tu vas « parler » à ton assistant. Tu as besoin de <b>Claude Code</b>.</p>
+      <p>C'est l'endroit où tu vas « parler » à ton assistant.</p>
       <ul>
         <li>Va sur le site officiel : <b>claude.ai/download</b></li>
         <li>Télécharge et installe l'application <b>Claude</b> sur ton ordinateur.</li>
-        <li>Ouvre-la, <b>connecte-toi</b> avec ton compte, puis va dans la partie <b>Code</b>.</li>
+        <li>Ouvre-la et <b>connecte-toi</b> avec ton compte, puis va dans la partie <b>Code</b>.</li>
       </ul>
-      <div class="note info"><span class="t">C'est quoi « la partie Code » ?</span>C'est juste une zone où tu peux écrire des commandes. Tu verras une ligne en bas pour taper. C'est là que tout se passe.</div>
     </div>
 
     <div class="step">
-      <div class="step-head"><div class="num">2</div><h3>Installe la boîte à outils du Collectif</h3></div>
-      <p>Tu vas taper <b>2 lignes</b>. Copie la première, colle-la, fais <b>Entrée</b>. Attends 2-3 secondes. Puis la deuxième.</p>
-      <div class="cmd"><button class="copy">Copier</button>/plugin marketplace add ZakiTariqaPRO/ctp-plugin</div>
-      <div class="cmd"><button class="copy">Copier</button>/plugin install collectif-tariqa-pro@ctp</div>
-      <div class="note ok"><span class="t">Important — tu ne télécharges RIEN à la main</span>Tu n'as <b>pas</b> besoin d'un compte GitHub. Tu ne vas <b>pas</b> sur un site pour télécharger. La commande va chercher la boîte à outils <b>toute seule</b>. Tu tapes, c'est tout.</div>
-      <p>Si on te demande d'autoriser quelque chose, dis <b>oui</b>. Une fois installé, c'est fini <b>pour toujours</b> (sauf mises à jour, voir plus bas).</p>
+      <div class="step-head"><div class="num">2</div><h3>Télécharge ton dossier de démarrage</h3></div>
+      <p>Un seul clic. C'est ton espace de travail tout prêt — la boîte à outils est déjà configurée dedans.</p>
+      <p><a class="dl" href="Demarrer-CTP.zip" download><b>⬇️ Télécharger Demarrer-CTP.zip</b></a></p>
+      <p>Une fois téléchargé, <b>double-clique le fichier</b> pour le décompresser. Tu obtiens un dossier <b>Demarrer-CTP</b> (range-le où tu veux, ex. ton Bureau).</p>
     </div>
 
     <div class="step">
-      <div class="step-head"><div class="num">3</div><h3>Lance ton parcours</h3></div>
-      <p>Maintenant, oublie les commandes compliquées. Écris simplement, en français normal :</p>
+      <div class="step-head"><div class="num">3</div><h3>Ouvre le dossier dans Claude</h3></div>
+      <ul>
+        <li>Dans Claude, partie <b>Code</b> → <b>Ouvrir un dossier</b> → choisis le dossier <b>Demarrer-CTP</b>.</li>
+        <li>Claude demande si tu <b>fais confiance</b> à ce dossier → réponds <b>Oui</b> (Trust).</li>
+      </ul>
+      <div class="note ok"><span class="t">La boîte à outils s'installe TOUTE SEULE</span>Pas de commande à taper, pas de compte GitHub. En ouvrant le dossier et en disant « oui », le Collectif s'installe automatiquement. C'est fait une fois, pour toujours.</div>
+    </div>
+
+    <div class="step">
+      <div class="step-head"><div class="num">4</div><h3>Lance ton parcours</h3></div>
+      <p>Toujours dans ce dossier, écris simplement, en français normal :</p>
       <div class="say">lance le parcours CTP</div>
-      <p>L'assistant regarde où tu en es, t'affiche ta progression, et démarre la première étape. Tu n'as plus qu'à <b>répondre à ses questions</b>.</p>
+      <p>L'assistant regarde où tu en es, t'affiche ta progression, et démarre la première étape. Tu n'as plus qu'à <b>répondre à ses questions</b>. Travaille toujours dans ce dossier : ton travail y est sauvegardé tout seul.</p>
     </div>
   </section>
 
@@ -199,12 +208,13 @@
 
   <section>
     <h2>Questions fréquentes</h2>
-    <details><summary>Je dois m'y connaître en informatique ?</summary><p>Non. Tu copies-colles 2 lignes une fois, puis tu écris en français normal. C'est tout.</p></details>
-    <details><summary>C'est quoi « GitHub » ? Je dois créer un compte ?</summary><p>Non, tu n'as rien à faire avec GitHub. C'est juste l'endroit où la boîte à outils est rangée. La commande va la chercher pour toi automatiquement.</p></details>
-    <details><summary>Je peux m'arrêter en plein milieu ?</summary><p>Oui. Tout est sauvegardé. Tu reprends quand tu veux avec « lance le parcours CTP ».</p></details>
+    <details><summary>Je dois m'y connaître en informatique ?</summary><p>Non. Tu télécharges un dossier, tu l'ouvres dans Claude, tu dis « oui ». Ensuite tu écris en français normal. Aucune commande.</p></details>
+    <details><summary>C'est quoi « GitHub » ? Je dois créer un compte ?</summary><p>Non, tu n'as rien à faire avec GitHub ni aucun compte technique. Le dossier de démarrage va chercher la boîte à outils tout seul.</p></details>
+    <details><summary>Rien ne s'installe quand j'ouvre le dossier ?</summary><p>Vérifie que tu as bien <b>décompressé</b> le .zip (pas ouvert depuis l'archive), que tu ouvres bien le dossier <b>Demarrer-CTP</b> dans la partie <b>Code</b> de Claude, et que tu as répondu <b>Oui</b> à la demande de confiance. Toujours bloqué ? Ferme et rouvre Claude, ou envoie une capture à ton accompagnateur.</p></details>
+    <details><summary>Je peux m'arrêter en plein milieu ?</summary><p>Oui. Tout est sauvegardé dans ton dossier. Tu reprends quand tu veux avec « lance le parcours CTP ».</p></details>
     <details><summary>J'ai dit une bêtise, je peux corriger ?</summary><p>Oui. Relance l'étape concernée et dis ce qui change. Rien n'est supprimé sans te demander.</p></details>
-    <details><summary>Une commande ne marche pas ?</summary><p>Vérifie le « / » au début et qu'il n'y a pas d'espace en trop. Réessaie. Toujours bloqué ? Fais une capture d'écran et envoie-la à ton accompagnateur.</p></details>
-    <details><summary>Comment je reçois les mises à jour ?</summary><p>Quand le Collectif améliore les outils, retape&nbsp;: <code>/plugin install collectif-tariqa-pro@ctp</code>. Ton travail reste intact.</p></details>
+    <details><summary>Comment je reçois les mises à jour ?</summary><p>Automatiquement : quand le Collectif améliore les outils, tu en profites en rouvrant ton dossier dans Claude. Si une nouveauté n'apparaît pas, ferme et rouvre Claude, ou demande à ton accompagnateur.</p></details>
+    <details><summary>Je suis à l'aise avec le terminal — y a plus rapide ?</summary><p>Oui. Dans le terminal <code>claude</code> (CLI), tape&nbsp;: <code>/plugin marketplace add ZakiTariqaPRO/ctp-plugin</code> puis <code>/plugin install collectif-tariqa-pro@ctp</code>. (Ces commandes <b>ne marchent que dans le CLI terminal</b>, pas dans la partie Code de l'app Desktop — d'où le dossier de démarrage pour tout le monde.)</p></details>
   </section>
 
   <footer>

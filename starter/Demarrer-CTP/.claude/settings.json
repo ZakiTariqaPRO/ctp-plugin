@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "ctp": {
+      "source": {
+        "source": "github",
+        "repo": "ZakiTariqaPRO/ctp-plugin"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "collectif-tariqa-pro@ctp": true
+  }
+}
