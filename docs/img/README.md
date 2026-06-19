@@ -22,6 +22,3 @@ Remplace-le par :
 - `win-download.png` — page claude.ai/download sur Windows
 - `onglet-code.png` — l'app Claude avec l'onglet « Code » entouré
 - `ouvrir-dossier.png` — Code → Local → Select folder + fenêtre « faire confiance »
-
-## Vidéo
-Dans `docs/index.html`, remplace `REMPLACER_PAR_LIEN_VIDEO` par l'URL de ton tuto (Loom/YouTube).
