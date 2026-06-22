@@ -3,6 +3,21 @@
 Le membre voit sa version via `lance le parcours CTP` (affichée en tête).
 Pour mettre à jour : voir `GUIDE-MEMBRE.md` §10.
 
+## 1.3.0
+
+- **Nouvelle étape 5 — `ctp-page-de-vente`** : l'aboutissement du parcours pour les
+  entrepreneurs (hors e-commerce). Transforme tout le travail (persona, offre, marque,
+  voix, pitch) en une **landing page v1 mise EN LIGNE**, pointable depuis les réseaux.
+  - CTA qualifié (calendrier Calendly/cal.com et/ou formulaire Tally).
+  - Vraies images du membre, **anti AI-slop**.
+  - **Hold-back** : la page vend le rendez-vous, pas toute l'offre (grain à moudre pour le call).
+  - Différenciateur mis en avant, SEO de base, page statique.
+  - Déploiement **Vercel** (compte membre requis), URL en ligne.
+  - **Filtre e-commerce** : l'étape ne s'adresse pas aux projets e-commerce.
+- **`ctp-taste` inclus dans le plugin** : moteur de design anti-slop (copie de taste-skill,
+  substance intacte), utilisé par `ctp-page-de-vente`.
+- **Output final complet du parcours** = le pitch + les docs `.md` + la landing page v1.
+
 ## 1.2.0
 
 - **Étape 3 fusionnée → `ctp-branding-positionnement`** : le branding (identité,

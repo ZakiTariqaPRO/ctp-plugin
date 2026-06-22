@@ -2,7 +2,7 @@
 name: ctp-export
 description: Compile tous les livrables CTP d'un projet (persona, offre, positionnement, voix, compliance) en un seul fichier vérifiable avec scorecard de complétion, GÉNÈRE un pitch puissant (méthode SIRA, < 3 min) à partir de toutes les données, et maintient un document de référence vivant consulté pour la suite du projet. Use when the user asks "exporter mon travail CTP", "générer le livrable", "compiler mes docs", "export CTP", "préparer pour envoi", "rapport de mon projet", "génère mon pitch", "crée mon pitch", "mon elevator pitch", or wants a single shareable text of all CTP work.
 metadata:
-  version: 1.2.0
+  version: 1.3.0
   category: tariqa-pro
 ---
 
@@ -114,9 +114,13 @@ d'un coup d'œil : qui a vraiment fait le travail, et où ça reste à compléte
 LIVRABLE CTP — <projet> — <date>
 Avancement : <X>/4 étapes complètes
 Persona ✅ · Offre 🟡 · Marque ⬜ · Voix ⬜ · Compliance ⬜
+Page de vente en ligne : <URL ou ⬜ pas encore>
 Points ouverts : <n>
 Fichier complet : ctp/EXPORT-<slug>-<date>.md
 ```
+
+> Si une landing page existe (`landing/` + URL, étape 5), l'inclure ici : c'est une
+> brique de l'output final (pitch + docs `.md` + page en ligne).
 
 ## Le document de référence vivant — `ctp/REFERENCE-<slug>.md`
 

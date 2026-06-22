@@ -2,7 +2,7 @@
 name: buyer-persona-architect
 description: Étape 1 du parcours Collectif Tariqa PRO — interroge le membre pour construire, puis enrichir au fil du temps, un document persona / ICP de référence par projet. Use when the user asks to "create a persona", "build an ICP", "define target audience", "analyze customer motivations", "construire un persona", "définir ma cible", "l'étape persona du parcours CTP", or wants to add/validate new information about an existing persona.
 metadata:
-  version: 1.2.0
+  version: 1.3.0
   category: tariqa-pro
 ---
 

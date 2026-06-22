@@ -101,7 +101,7 @@ projet. Tu peux t'arrêter et reprendre plus tard : il se souvient de tout.
 
 ---
 
-## 6. Les 4 étapes + la vérification
+## 6. Les étapes + la vérification
 
 Tu les fais **dans l'ordre** (le parcours s'en occupe pour toi) :
 
@@ -109,11 +109,17 @@ Tu les fais **dans l'ordre** (le parcours s'en occupe pour toi) :
 |---|---|---|
 | 1 | **Ta cible (persona)** | Tu sais précisément à qui tu parles. |
 | 2 | **Ton offre** | Tu sais quoi vendre, comment c'est construit. |
-| 3 | **Ton positionnement** | Tu sais pourquoi on te choisit toi. |
+| 3 | **Ta marque** | Branding + positionnement : qui tu es, pourquoi on te choisit. |
 | 4 | **Ta voix** | Tu sais comment écrire tes textes. |
+| 5 | **Ta page de vente** *(en ligne)* | Une vraie page web v1, à mettre dans tes bios réseaux. |
 | ✓ | **Vérification CTP** | Tu vérifies que tout reste fidèle à l'esprit du Collectif. |
 
 Tu peux faire une étape par jour, tranquillement. Pas de course.
+
+> 🌐 **L'étape 5 (page de vente)** est l'aboutissement : ta page part **en ligne**. Elle
+> est faite pour ceux qui vendent un **service / une expertise** (pas pour l'e-commerce).
+> Prévois un compte gratuit **Vercel** (mise en ligne) et un outil de rendez-vous/formulaire
+> (Calendly, Tally), plus tes **vraies photos**. Claude te guide pas à pas.
 
 > ✨ Astuce : à n'importe quel moment, retape `lance le parcours CTP` pour voir
 > où tu en es et reprendre là où tu t'étais arrêté.

@@ -1,8 +1,8 @@
 ---
 name: ctp-parcours
-description: Porte d'entrée et chef d'orchestre de la méthode Collectif Tariqa PRO. Scanne où en est le projet, affiche la carte du parcours (persona → offre → marque [branding + positionnement] → voix, + compliance transverse) avec le statut de chaque étape, et lance la bonne étape suivante dans le bon ordre. Use when the user asks "par où commencer", "lance le parcours CTP", "où j'en suis", "étape suivante", "méthode Tariqa PRO", "start CTP", "guide moi", or doesn't know which CTP skill utiliser.
+description: Porte d'entrée et chef d'orchestre de la méthode Collectif Tariqa PRO. Scanne où en est le projet, affiche la carte du parcours (persona → offre → marque [branding + positionnement] → voix → page de vente en ligne [hors e-commerce], + compliance transverse) avec le statut de chaque étape, et lance la bonne étape suivante dans le bon ordre. Use when the user asks "par où commencer", "lance le parcours CTP", "où j'en suis", "étape suivante", "méthode Tariqa PRO", "start CTP", "guide moi", or doesn't know which CTP skill utiliser.
 metadata:
-  version: 1.2.0
+  version: 1.3.0
   category: tariqa-pro
 ---
 
@@ -20,10 +20,16 @@ faire ensuite.
 | 2 | **Offre** — quoi | `ctp-offre` | `offres/<slug>.md` | persona |
 | 3 | **Marque** (branding + positionnement + différenciateur) — qui je suis, pourquoi moi | `ctp-branding-positionnement` | `positionnement/<slug>.md` | persona + offre |
 | 4 | **Voix** — comment je le dis | `ctp-voix` | `voix/<slug>.md` | persona + positionnement |
+| 5 | **Page de vente** — ma page en ligne *(entrepreneurs hors e-commerce)* | `ctp-page-de-vente` | `landing/` + URL en ligne | persona + offre + marque + voix |
 | ✓ | **Compliance** — est-ce cohérent CTP | `ctp-compliant` | `ctp/tariqa-compliance.md` | transverse |
 
 **Compliance** n'est pas une étape de fin : c'est un **checkpoint transverse**.
-Le recommander après l'offre, après le positionnement, et sur tout contenu produit.
+Le recommander après l'offre, après la marque, et sur tout contenu produit.
+
+**Étape 5 (page de vente)** est l'**aboutissement** du parcours pour les entrepreneurs
+qui vendent un **service / une expertise** : elle met une landing page v1 EN LIGNE. Elle
+**ne s'adresse pas à l'e-commerce** (autre logique : boutique/fiche produit). `ctp-page-de-vente`
+gère lui-même ce filtre au lancement.
 
 ## Amorçage du projet — `ctp-init` (à la 1ʳᵉ fois)
 
@@ -79,7 +85,7 @@ Ce réglage est lu par le skill `coach-zaki` (voir sa section « Modes »).
    en quelques mots (« nouveau : Coach Zaki »).
 1. **Scanner le projet** — vérifier la présence ET le remplissage de :
    `personas/*.md`, `offres/*.md`, `positionnement/*.md`, `voix/*.md`,
-   `ctp/tariqa-compliance.md`.
+   `landing/` (page de vente, étape 5), `ctp/tariqa-compliance.md`.
    Pour chaque : **absent** / **présent mais incomplet** (contient des `⏳ à
    préciser` ou des sections vides) / **complet**.
 2. **Afficher la carte du parcours** avec un statut par étape :
@@ -105,8 +111,13 @@ Ce réglage est lu par le skill `coach-zaki` (voir sa section « Modes »).
   un passage `ctp-compliant`. Avant tout export, recommander un dernier audit.
 - **Multi-projets** : si plusieurs slugs existent (`personas/a.md`,
   `personas/b.md`), demander sur quel projet on travaille avant de scanner.
-- **Fin de parcours** : quand les 4 étapes sont ✅ + compliance passée, proposer
-  `ctp-export` pour générer le livrable vérifiable.
+- **Étape 5 = aboutissement (hors e-commerce)** : quand les 4 premières étapes sont ✅,
+  proposer `ctp-page-de-vente` pour mettre une landing page v1 EN LIGNE. Si le membre fait
+  de l'e-commerce, ne pas la pousser (le skill gère le filtre). L'étape 5 n'est pas requise
+  pour considérer le travail de fond comme fait.
+- **Fin de parcours** : quand les 4 étapes de fond sont ✅ + compliance passée, proposer
+  `ctp-export` (livrable vérifiable + pitch) et, pour les entrepreneurs, `ctp-page-de-vente`
+  (la page en ligne). L'**output final complet** = le pitch + les docs `.md` + la landing v1.
 
 ## Affichage type (exemple)
 
@@ -116,6 +127,7 @@ PARCOURS CTP — projet « benti-couture »
 2. Offre .............. ⬜ pas commencé
 3. Marque ............. ⬜
 4. Voix ............... ⬜
+5. Page de vente ...... ⬜ (en ligne — hors e-commerce)
 ✓ Compliance .......... ⬜
 
 → Prochaine étape : finir le Persona (étape 1). J'ouvre `buyer-persona-architect` ?

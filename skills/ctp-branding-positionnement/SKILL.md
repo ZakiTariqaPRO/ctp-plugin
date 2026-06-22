@@ -2,7 +2,7 @@
 name: ctp-branding-positionnement
 description: Construit, puis enrichit, la MARQUE d'un projet selon la méthode Collectif Tariqa PRO — branding (identité, associations, histoire de marque) ET positionnement + différenciateur, en un seul parcours. Vise un MVB (Minimum Valuable Brand) : une marque suffisante pour démarrer, pas une réflexion infinie. Interroge le membre une question à la fois et écrit un document de marque de référence par projet. Use when the user asks "définir ma marque", "mon branding", "construire mon image de marque", "mon positionnement", "mon différenciateur", "qu'est-ce qui me rend unique", "à quoi je veux qu'on m'associe", "mon histoire de marque", "me démarquer", "trouver mon angle", or wants to add/validate info about an existing brand/positioning.
 metadata:
-  version: 1.2.0
+  version: 1.3.0
   category: tariqa-pro
 ---
 

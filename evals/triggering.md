@@ -56,6 +56,17 @@ concurrents sur la machine d'un membre.
 - ✅ « génère mon pitch » (entrée pitch-seul, sans export complet)
 - ❌ « exporte ce tableau en CSV » (autre export)
 
+## ctp-page-de-vente
+- ✅ « crée ma landing page » / « ma page de vente » / « mets ma page en ligne »
+- ✅ « une page pour mettre dans ma bio Insta »
+- ✅ « déploie mon site » (dans le contexte CTP)
+- ❌ « ajoute une page à mon app React » (dev applicatif, pas la landing CTP)
+- ❌ « optimise la page produit de ma boutique » (e-commerce → hors périmètre)
+
+## ctp-taste
+- (moteur interne appelé par ctp-page-de-vente ; peut aussi répondre à « design anti-slop d'une landing »)
+- ❌ « fais-moi un dashboard de données » (hors périmètre : landing/portfolio uniquement)
+
 ## coach-zaki
 - ✅ « coache-moi », « sois honnête avec moi », « je tourne en rond depuis des mois »
 - ✅ « j'ai pas le temps de m'y mettre » (excuse → challenge)
