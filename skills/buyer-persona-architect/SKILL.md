@@ -1,9 +1,9 @@
 ---
 name: buyer-persona-architect
-description: Interroge l'utilisateur pour construire, puis enrichir au fil du temps, un document persona / ICP de référence par projet. Use when the user asks to "create a persona", "build an ICP", "define target audience", "analyze customer motivations", "construire un persona", "définir ma cible", or wants to add/validate new information about an existing persona.
+description: Étape 1 du parcours Collectif Tariqa PRO — interroge le membre pour construire, puis enrichir au fil du temps, un document persona / ICP de référence par projet. Use when the user asks to "create a persona", "build an ICP", "define target audience", "analyze customer motivations", "construire un persona", "définir ma cible", "l'étape persona du parcours CTP", or wants to add/validate new information about an existing persona.
 metadata:
-  version: 2.0.0
-  category: marketing
+  version: 1.1.0
+  category: tariqa-pro
 ---
 
 # Buyer Persona Architect

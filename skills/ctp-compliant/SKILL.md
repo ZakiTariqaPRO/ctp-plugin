@@ -2,7 +2,7 @@
 name: ctp-compliant
 description: Vérifie qu'un projet, une décision, une offre ou un contenu est cohérent avec la doctrine du Collectif Tariqa PRO (valeurs, vision, éthique, méthode, 6 piliers). À l'installation, interroge le membre sur son projet pour ancrer l'audit ; ensuite, audite à la demande « Est-ce Tariqa PRO compliant ? » et s'enrichit au fil du temps. Use when the user asks "est-ce Tariqa PRO compliant", "audit CTP", "est-ce cohérent avec les valeurs", "check my offer against Tariqa PRO", "valide mon projet CTP", or sets up CTP alignment for a project.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   category: tariqa-pro
 ---
 
@@ -109,6 +109,13 @@ coller à un membre. Si un membre est en désaccord avec un principe, c'est un
 **écart à signaler**, pas une raison de changer la doctrine. Seul l'auteur (Zaki)
 fait évoluer la doctrine, et toujours en l'ancrant sur une source (vidéo,
 enseignement). Mentionner la date et la source de tout ajout.
+
+**Version de la doctrine.** `references/doctrine.md` porte un en-tête
+`<!-- doctrine-version: X.Y.Z · maj: AAAA-MM-JJ -->`. Au début d'un audit, lire cette
+version et l'indiquer brièvement (« doctrine v1.1.0 »). Comme la doctrine est embarquée
+dans le plugin, un membre qui n'a pas mis à jour audite sur une version périmée : si la
+date est ancienne, suggérer un « mets à jour le plugin du Collectif Tariqa PRO » pour
+récupérer la dernière doctrine.
 
 ## Persistance — pour que l'exigence CTP revienne à chaque session
 

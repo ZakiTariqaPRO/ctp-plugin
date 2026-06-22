@@ -40,25 +40,28 @@ Tu n'as rien à mémoriser : **un seul outil te guide pour tout le reste.**
 
 ## 3. Installer la boîte à outils (à faire **une seule fois**)
 
-Tu vas taper **2 lignes**. Copie-colle la première, fais Entrée, attends 2-3
-secondes, puis la deuxième.
+Le plus simple : **demande à Claude de l'installer en français.** Ouvre ton dossier
+de travail dans Claude (onglet **Code** → icône dossier **+** → choisis le dossier →
+fais confiance), puis **copie-colle ce message** dans le chat :
 
-**Ligne 1** — ajouter la boîte :
 ```
-/plugin marketplace add ZakiTariqaPRO/ctp-plugin
-```
-
-**Ligne 2** — l'installer :
-```
-/plugin install collectif-tariqa-pro@ctp
+Installe le plugin du Collectif Tariqa PRO depuis ce lien : https://github.com/ZakiTariqaPRO/ctp-plugin.git
 ```
 
-✅ Si Claude te confirme que c'est installé, tu as fini cette étape **pour
-toujours**. Tu ne la refais pas (sauf pour les mises à jour, voir la fin).
+Claude s'occupe de tout (ajout de la boîte + installation). ✅ Quand il te confirme
+que c'est installé, c'est fini **pour toujours** (sauf mises à jour, voir la fin).
 
-> 💡 Si une commande ne marche pas : vérifie qu'il n'y a pas d'espace en trop,
-> et que tu as bien le `/` au début. Réessaie. Toujours bloqué ? Préviens ton
-> accompagnateur avec une capture d'écran.
+> 💡 **Si tu es à l'aise avec le terminal (Claude Code CLI)**, tu peux aussi taper
+> les 2 commandes :
+> ```
+> /plugin marketplace add ZakiTariqaPRO/ctp-plugin
+> /plugin install collectif-tariqa-pro@ctp
+> ```
+
+> ⚠️ **« /plugin ne marche pas » (Cowork, app Desktop, IDE).** Les commandes
+> `/plugin` n'existent **que dans le terminal Claude Code**. Sur Cowork ou dans
+> l'app, n'utilise pas `/plugin` : reste sur le **message en français** ci-dessus,
+> c'est Claude qui installe. Toujours bloqué ? Capture d'écran à ton accompagnateur.
 
 ---
 
@@ -174,13 +177,16 @@ ton accompagnateur.
 
 ## 10. Les mises à jour (rien à faire ou presque)
 
-Quand le Collectif améliore les outils, tape simplement :
+Quand le Collectif améliore les outils, **demande la mise à jour en français** :
 
 ```
-/plugin install collectif-tariqa-pro@ctp
+mets à jour le plugin du Collectif Tariqa PRO
 ```
 
-Tu récupères la dernière version. Ton travail, lui, reste intact.
+(Dans le terminal Claude Code, l'équivalent est `/plugin install collectif-tariqa-pro@ctp`.)
+
+Tu récupères la dernière version. Ton travail, lui, reste intact. Pour savoir quelle
+version tu as, tape `lance le parcours CTP` : il affiche « CTP v… » en haut.
 
 ---
 

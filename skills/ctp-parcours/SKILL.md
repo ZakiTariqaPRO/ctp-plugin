@@ -2,7 +2,7 @@
 name: ctp-parcours
 description: Porte d'entrée et chef d'orchestre de la méthode Collectif Tariqa PRO. Scanne où en est le projet, affiche la carte du parcours (persona → offre → positionnement → voix, + compliance transverse) avec le statut de chaque étape, et lance la bonne étape suivante dans le bon ordre. Use when the user asks "par où commencer", "lance le parcours CTP", "où j'en suis", "étape suivante", "méthode Tariqa PRO", "start CTP", "guide moi", or doesn't know which CTP skill utiliser.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   category: tariqa-pro
 ---
 
@@ -24,6 +24,31 @@ faire ensuite.
 
 **Compliance** n'est pas une étape de fin : c'est un **checkpoint transverse**.
 Le recommander après l'offre, après le positionnement, et sur tout contenu produit.
+
+## Amorçage du projet — `ctp-init` (à la 1ʳᵉ fois)
+
+Avant tout, **ancrer le projet** pour que tous les skills écrivent au bon endroit
+(important sur Cowork où le répertoire courant peut varier, et quand plusieurs
+projets coexistent).
+
+1. **Confirmer la racine.** Si plusieurs dossiers de travail possibles ou un doute,
+   demander : « On travaille sur quel projet / dans quel dossier ? » Sinon, prendre
+   le répertoire courant.
+2. **Écrire `ctp/project.json`** s'il n'existe pas : `{ "slug": "<slug>", "nom": "<nom>", "racine": "<chemin>" }`.
+   Tous les chemins (`personas/`, `offres/`…) sont **relatifs à cette racine** — la relire à chaque lancement.
+3. **Créer l'arborescence** si absente : `personas/`, `offres/`, `positionnement/`,
+   `voix/`, `ctp/`. (Ne rien écraser, juste créer ce qui manque.)
+4. **Injecter le bloc de persistance dans le `CLAUDE.md` du projet** s'il n'y est pas
+   déjà (le créer s'il n'existe pas), pour que le travail soit rappelé à chaque session :
+
+   ```
+   ## Projet CTP
+   Parcours Collectif Tariqa PRO. Docs de référence : `personas/`, `offres/`,
+   `positionnement/`, `voix/`, `ctp/`. État consolidé : `ctp/REFERENCE-<slug>.md`.
+   Toujours respecter ces docs pour tout contenu/décision de ce projet.
+   ```
+
+   Montrer ce qu'on ajoute avant d'écrire (ne pas modifier un `CLAUDE.md` existant en silence).
 
 ## Au tout premier lancement — présenter Coach Zaki et régler son mode
 
@@ -48,6 +73,10 @@ Ce réglage est lu par le skill `coach-zaki` (voir sa section « Modes »).
 
 ## Ce que fait ce skill à chaque déclenchement
 
+0. **Afficher la version du plugin** en une ligne discrète en tête (lire
+   `.claude-plugin/plugin.json` → champ `version`) : « CTP v<version> ». Si une
+   nouveauté marquante existe pour cette version (voir `CHANGELOG.md`), la mentionner
+   en quelques mots (« nouveau : Coach Zaki »).
 1. **Scanner le projet** — vérifier la présence ET le remplissage de :
    `personas/*.md`, `offres/*.md`, `positionnement/*.md`, `voix/*.md`,
    `ctp/tariqa-compliance.md`.
@@ -61,7 +90,11 @@ Ce réglage est lu par le skill `coach-zaki` (voir sa section « Modes »).
    laisser le membre choisir s'il veut faire autre chose — mais **prévenir** s'il
    saute une dépendance (« tu attaques l'offre sans persona — l'offre sera plus
    floue ; on fait le persona d'abord ? »).
-5. À la fin d'une étape, reproposer la carte + l'étape suivante.
+5. **À la fin de chaque étape**, mettre à jour le document de référence vivant
+   `ctp/REFERENCE-<slug>.md` (consolider l'état courant : persona + offre +
+   positionnement + voix remplis à ce stade, daté). La référence est ainsi vivante
+   **dès l'étape 1**, pas seulement après l'export. Puis reproposer la carte +
+   l'étape suivante.
 
 ## Règles d'orchestration
 

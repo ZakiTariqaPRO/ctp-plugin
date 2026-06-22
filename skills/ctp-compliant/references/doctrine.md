@@ -1,5 +1,7 @@
 # Doctrine — Collectif Tariqa PRO
 
+<!-- doctrine-version: 1.1.0 · maj: 2026-06-22 -->
+
 Référence d'audit. Distillée des enseignements du fondateur (Zaki Chairi).
 Sert à juger la cohérence d'un projet, pas à faire de la jurisprudence.
 *Sources : chaîne YouTube @zakichairi + méthode des coachings collectifs. Aucun chiffre d'argent reporté.*

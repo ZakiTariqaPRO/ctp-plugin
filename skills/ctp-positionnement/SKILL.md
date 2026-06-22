@@ -2,7 +2,7 @@
 name: ctp-positionnement
 description: Construit, puis enrichit, le positionnement d'un projet selon l'approche Collectif Tariqa PRO — y compris le module différenciateur (« quel est mon différenciateur ? »). Interroge le membre une question à la fois (catégorie, cible, alternatives, différenciateur prouvé, énoncé de positionnement, messages-clés, anti-positionnement) et écrit un document de référence par projet. Use when the user asks "définir mon positionnement", "mon différenciateur", "qu'est-ce qui me rend unique", "what's my positioning", "me démarquer de la concurrence", "trouver mon angle", or wants to add/validate new info about an existing positioning.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   category: tariqa-pro
 ---
 

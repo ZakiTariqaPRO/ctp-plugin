@@ -2,7 +2,7 @@
 name: ctp-export
 description: Compile tous les livrables CTP d'un projet (persona, offre, positionnement, voix, compliance) en un seul fichier vérifiable avec scorecard de complétion, GÉNÈRE un pitch puissant (méthode SIRA, < 3 min) à partir de toutes les données, et maintient un document de référence vivant consulté pour la suite du projet. Use when the user asks "exporter mon travail CTP", "générer le livrable", "compiler mes docs", "export CTP", "préparer pour envoi", "rapport de mon projet", "génère mon pitch", "crée mon pitch", "mon elevator pitch", or wants a single shareable text of all CTP work.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   category: tariqa-pro
 ---
 
@@ -22,7 +22,17 @@ d'un coup d'œil : qui a vraiment fait le travail, et où ça reste à compléte
 | Voix | `voix/<slug>.md` |
 | Compliance | `ctp/tariqa-compliance.md` |
 
-## Procédure
+## Deux entrées
+
+- **Export complet** (« export CTP », « génère le livrable ») → toute la procédure ci-dessous.
+- **Pitch seul** (« génère mon pitch », « crée mon pitch », « mon elevator pitch ») → **ne pas
+  forcer l'export complet**. Lire ce qui existe déjà (`ctp/REFERENCE-<slug>.md` en priorité, sinon
+  les docs présents), générer le pitch via `references/pitch.md` à partir de ce qu'on a, et
+  **signaler les briques manquantes** (« pitch partiel : offre pas encore définie → la résolution
+  reste floue ; on fait l'offre pour un pitch complet ? »). Sortir le pitch dans un bloc de code.
+  Ne pas écrire de fichier d'export, ne pas recalculer tout le scorecard.
+
+## Procédure (export complet)
 
 1. **Identifier le projet** : si plusieurs slugs, demander lequel exporter.
 2. **Récupérer la date du jour** (`date +%F`) et lister les fichiers présents.
@@ -128,7 +138,8 @@ L'export n'a de valeur que s'il est **partagé** : l'animateur (Zaki) le voit, l
 s'engage devant le collectif, et chacun publie son avancement au fur et à mesure.
 
 - Après l'export, **inviter le membre à le publier dans l'espace dédié** du Collectif
-  Tariqa PRO sur Circle : **[Espace plugin CTP — lien à insérer]**.
+  Tariqa PRO sur Circle. Le lien est centralisé dans `references/collectif.md` (le lire) :
+  **SIRAT — LE FAMEUX PARCOURS** → https://collectif-tariqa-pro.circle.so/c/sirat-le-fameux-parcours
 - Format au choix du membre : **coller le bloc copier-coller** (résumé + scorecard) ou
   **uploader le PDF** complet.
 - Le skill ne poste pas à la place du membre (il n'a pas accès à Circle) : il prépare le
