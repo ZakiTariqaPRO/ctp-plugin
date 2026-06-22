@@ -3,6 +3,21 @@
 Le membre voit sa version via `lance le parcours CTP` (affichée en tête).
 Pour mettre à jour : voir `GUIDE-MEMBRE.md` §10.
 
+## 1.2.0
+
+- **Étape 3 fusionnée → `ctp-branding-positionnement`** : le branding (identité,
+  associations + anti-association, histoire de marque en 3 temps) rejoint le
+  positionnement et le différenciateur en un seul parcours.
+- **MVB (Minimum Valuable Brand)** : on pose une marque V1 suffisante pour démarrer
+  en une session, puis STOP — fini les cycles de réflexion sans fin.
+- **Kit visuel de base** : `ctp-branding-positionnement` produit un `brand/design-kit.md`
+  (palette hex, typos, règles) — spec réutilisable pour créer ses visuels.
+- **`ctp-brandkit` inclus dans le plugin** : génère les planches visuelles + concepts
+  logo à partir du kit, sans aucune install séparée (le rendu d'images dépend de la
+  capacité du Claude du membre).
+- `ctp-positionnement` est renommé `ctp-branding-positionnement` (la donnée reste
+  `positionnement/<slug>.md`).
+
 ## 1.1.0
 
 - **Coach Zaki** — coach qui challenge au lieu de flatter (modes Actif / Sur demande).

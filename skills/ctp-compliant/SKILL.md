@@ -2,7 +2,7 @@
 name: ctp-compliant
 description: Vérifie qu'un projet, une décision, une offre ou un contenu est cohérent avec la doctrine du Collectif Tariqa PRO (valeurs, vision, éthique, méthode, 6 piliers). À l'installation, interroge le membre sur son projet pour ancrer l'audit ; ensuite, audite à la demande « Est-ce Tariqa PRO compliant ? » et s'enrichit au fil du temps. Use when the user asks "est-ce Tariqa PRO compliant", "audit CTP", "est-ce cohérent avec les valeurs", "check my offer against Tariqa PRO", "valide mon projet CTP", or sets up CTP alignment for a project.
 metadata:
-  version: 1.1.0
+  version: 1.2.0
   category: tariqa-pro
 ---
 

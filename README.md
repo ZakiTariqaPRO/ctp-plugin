@@ -14,7 +14,8 @@ Collectif.
 | **ctp-parcours** | 🧭 La porte d'entrée. Te dit où tu en es et lance la bonne étape. |
 | **buyer-persona-architect** | 1. À qui tu t'adresses (persona / cible). |
 | **ctp-offre** | 2. Ton offre (méthode des 3 P, architecture, pricing). |
-| **ctp-positionnement** | 3. Ton positionnement + ton différenciateur. |
+| **ctp-branding-positionnement** | 3. Ta marque : branding (identité, associations, histoire) + positionnement + différenciateur. MVB : suffisant pour démarrer. |
+| **ctp-brandkit** | 🎨 Génère tes planches visuelles + concepts logo à partir de ton kit de marque (inclus, aucune install séparée). |
 | **ctp-voix** | 4. Ta voix de marque + rédaction (copywriting). |
 | **ctp-compliant** | ✓ Audit : « est-ce Tariqa PRO compliant ? » |
 | **ctp-export** | 📤 Compile ton travail en un livrable vérifiable. |

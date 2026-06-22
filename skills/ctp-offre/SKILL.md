@@ -2,7 +2,7 @@
 name: ctp-offre
 description: Construit, puis enrichit au fil du temps, l'offre d'un projet selon la méthode Collectif Tariqa PRO (les « 3 P » pain/passion/pro, architecture starter-premium-élite, ancrage de prix, modalités de paiement, MVP go-to-market). Interroge le membre une question à la fois et écrit un document d'offre de référence par projet. Use when the user asks to "construire mon offre", "définir mon offre", "build my offer", "package my offer", "fixer mon pricing", "structurer mes formules", "rendre mon offre irrésistible", or wants to add/validate new info about an existing offer.
 metadata:
-  version: 1.1.0
+  version: 1.2.0
   category: tariqa-pro
 ---
 

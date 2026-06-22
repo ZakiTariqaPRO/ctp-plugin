@@ -25,10 +25,20 @@ concurrents sur la machine d'un membre.
 - ✅ « structurer mes formules starter / premium »
 - ❌ « fais-moi une offre d'emploi » (autre sens d'« offre »)
 
-## ctp-positionnement
+## ctp-branding-positionnement
 - ✅ « c'est quoi mon différenciateur ? »
 - ✅ « comment me démarquer de la concurrence »
+- ✅ « définir ma marque » / « mon branding » / « à quoi je veux qu'on m'associe »
+- ✅ « mon histoire de marque »
 - ❌ « positionne cet élément en CSS » (positionnement technique)
+- ❌ « crée-moi un logo » (génération visuelle pure → ctp-brandkit, pas la stratégie de marque)
+
+## ctp-brandkit
+- ✅ « génère mes planches de marque »
+- ✅ « crée-moi des concepts de logo »
+- ✅ « fais-moi une identité visuelle / un univers visuel »
+- ❌ « c'est quoi mon différenciateur ? » (stratégie de marque → ctp-branding-positionnement)
+- ❌ « édite cette photo » (retouche, pas identité de marque)
 
 ## ctp-voix
 - ✅ « trouve ma voix de marque »

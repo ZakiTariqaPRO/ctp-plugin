@@ -1,8 +1,8 @@
 ---
 name: ctp-parcours
-description: Porte d'entrée et chef d'orchestre de la méthode Collectif Tariqa PRO. Scanne où en est le projet, affiche la carte du parcours (persona → offre → positionnement → voix, + compliance transverse) avec le statut de chaque étape, et lance la bonne étape suivante dans le bon ordre. Use when the user asks "par où commencer", "lance le parcours CTP", "où j'en suis", "étape suivante", "méthode Tariqa PRO", "start CTP", "guide moi", or doesn't know which CTP skill utiliser.
+description: Porte d'entrée et chef d'orchestre de la méthode Collectif Tariqa PRO. Scanne où en est le projet, affiche la carte du parcours (persona → offre → marque [branding + positionnement] → voix, + compliance transverse) avec le statut de chaque étape, et lance la bonne étape suivante dans le bon ordre. Use when the user asks "par où commencer", "lance le parcours CTP", "où j'en suis", "étape suivante", "méthode Tariqa PRO", "start CTP", "guide moi", or doesn't know which CTP skill utiliser.
 metadata:
-  version: 1.1.0
+  version: 1.2.0
   category: tariqa-pro
 ---
 
@@ -18,7 +18,7 @@ faire ensuite.
 |---|---|---|---|---|
 | 1 | **Persona** — à qui | `buyer-persona-architect` | `personas/<slug>.md` | — |
 | 2 | **Offre** — quoi | `ctp-offre` | `offres/<slug>.md` | persona |
-| 3 | **Positionnement** (+ différenciateur) — pourquoi moi | `ctp-positionnement` | `positionnement/<slug>.md` | persona + offre |
+| 3 | **Marque** (branding + positionnement + différenciateur) — qui je suis, pourquoi moi | `ctp-branding-positionnement` | `positionnement/<slug>.md` | persona + offre |
 | 4 | **Voix** — comment je le dis | `ctp-voix` | `voix/<slug>.md` | persona + positionnement |
 | ✓ | **Compliance** — est-ce cohérent CTP | `ctp-compliant` | `ctp/tariqa-compliance.md` | transverse |
 
@@ -101,7 +101,7 @@ Ce réglage est lu par le skill `coach-zaki` (voir sa section « Modes »).
 - **Ne jamais sauter une dépendance en silence.** Si le membre veut l'étape 3
   sans l'étape 1, le signaler et proposer de remonter — sans bloquer s'il insiste.
 - **Une étape à la fois.** Ne pas lancer deux skills en parallèle.
-- **Checkpoint compliance** : après l'offre et après le positionnement, proposer
+- **Checkpoint compliance** : après l'offre et après la marque, proposer
   un passage `ctp-compliant`. Avant tout export, recommander un dernier audit.
 - **Multi-projets** : si plusieurs slugs existent (`personas/a.md`,
   `personas/b.md`), demander sur quel projet on travaille avant de scanner.
@@ -114,7 +114,7 @@ Ce réglage est lu par le skill `coach-zaki` (voir sa section « Modes »).
 PARCOURS CTP — projet « benti-couture »
 1. Persona ............ 🟡 commencé (3 ⏳ ouverts)
 2. Offre .............. ⬜ pas commencé
-3. Positionnement ..... ⬜
+3. Marque ............. ⬜
 4. Voix ............... ⬜
 ✓ Compliance .......... ⬜
 

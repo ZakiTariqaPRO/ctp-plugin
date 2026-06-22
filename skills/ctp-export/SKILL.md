@@ -2,7 +2,7 @@
 name: ctp-export
 description: Compile tous les livrables CTP d'un projet (persona, offre, positionnement, voix, compliance) en un seul fichier vérifiable avec scorecard de complétion, GÉNÈRE un pitch puissant (méthode SIRA, < 3 min) à partir de toutes les données, et maintient un document de référence vivant consulté pour la suite du projet. Use when the user asks "exporter mon travail CTP", "générer le livrable", "compiler mes docs", "export CTP", "préparer pour envoi", "rapport de mon projet", "génère mon pitch", "crée mon pitch", "mon elevator pitch", or wants a single shareable text of all CTP work.
 metadata:
-  version: 1.1.0
+  version: 1.2.0
   category: tariqa-pro
 ---
 
@@ -18,7 +18,7 @@ d'un coup d'œil : qui a vraiment fait le travail, et où ça reste à compléte
 |---|---|
 | Persona | `personas/<slug>.md` |
 | Offre | `offres/<slug>.md` |
-| Positionnement (+ différenciateur) | `positionnement/<slug>.md` |
+| Marque (branding + positionnement + différenciateur) | `positionnement/<slug>.md` |
 | Voix | `voix/<slug>.md` |
 | Compliance | `ctp/tariqa-compliance.md` |
 
@@ -69,7 +69,7 @@ d'un coup d'œil : qui a vraiment fait le travail, et où ça reste à compléte
 |---|---|---|
 | 1. Persona | ✅ / 🟡 / ⬜ | <n ⏳> |
 | 2. Offre | … | … |
-| 3. Positionnement | … | … |
+| 3. Marque | … | … |
 | 4. Voix | … | … |
 | ✓ Compliance | … | dernier verdict : <✅/⚠️/❌ + date> |
 
@@ -89,7 +89,7 @@ d'un coup d'œil : qui a vraiment fait le travail, et où ça reste à compléte
 <contenu intégral de offres/<slug>.md>
 
 ---
-## 3. Positionnement
+## 3. Marque (branding + positionnement)
 <contenu intégral de positionnement/<slug>.md>
 
 ---
@@ -113,7 +113,7 @@ d'un coup d'œil : qui a vraiment fait le travail, et où ça reste à compléte
 ```
 LIVRABLE CTP — <projet> — <date>
 Avancement : <X>/4 étapes complètes
-Persona ✅ · Offre 🟡 · Positionnement ⬜ · Voix ⬜ · Compliance ⬜
+Persona ✅ · Offre 🟡 · Marque ⬜ · Voix ⬜ · Compliance ⬜
 Points ouverts : <n>
 Fichier complet : ctp/EXPORT-<slug>-<date>.md
 ```

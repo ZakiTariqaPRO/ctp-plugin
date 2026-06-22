@@ -1,14 +1,34 @@
-# Gabarit — document de positionnement
+# Gabarit — document de marque (branding + positionnement)
 
 Écrit dans le projet sous `positionnement/<slug>.md`. Un fait = source + date.
-On n'écrase jamais en silence (mode VALIDATE).
+On n'écrase jamais en silence (mode VALIDATE). Le volet positionnement reste **MVB** :
+remplir le minimum d'abord, les sections avancées seulement si le membre creuse.
 
 ```markdown
-# Positionnement — <Nom du projet>
+# Marque — <Nom du projet>
 
-> Dernière mise à jour : <AAAA-MM-JJ>
+> Dernière mise à jour : <AAAA-MM-JJ> · Version : MVB (V1, à affiner avec l'usage)
 > Cible : `personas/<slug>.md` · Offre : `offres/<slug>.md` (si présents)
-> Boussole de tout contenu, page et message (skill `ctp-positionnement`).
+> Kit visuel : `brand/design-kit.md` (si généré)
+> Boussole de tout contenu, page et visuel (skill `ctp-branding-positionnement`).
+
+## ★ MARQUE (branding)
+
+### Destination
+- Dans ~1 an : <outcome en 1 phrase>
+- **Connu pour (la seule chose)** : <…>
+
+### Associations
+- À relier à moi (3) : <…> · <…> · <…>
+- **Anti-association** (ce dont je me démarque / refuse d'être associé) : <…>
+
+### Histoire de marque
+- **Catalyseur** (pourquoi ça existe) : <…>
+- **Vérité-cœur** (ce que je crois que d'autres ne croient pas) : <…>
+- **Preuve** (comment je le montre, exemples concrets) : <…>
+
+---
+## POSITIONNEMENT
 
 ## La question qui décide
 « Pourquoi moi, plutôt que toutes les options de mon client — y compris ne rien

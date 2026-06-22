@@ -2,7 +2,7 @@
 name: ctp-voix
 description: Capte la voix de marque DU CLIENT (ton, registre, lexique) puis rédige et révise des contenus selon cette voix + des règles de copywriting universelles (vulgarisation, phrases courtes, bénéfice avant caractéristique, hook, CTA). Dépend du persona et du positionnement. Interroge une question à la fois, écrit une charte de voix de référence par projet, et produit/révise la copy. Use when the user asks to "écrire un texte", "rédiger une page de vente", "trouver ma voix de marque", "définir mon ton", "réécrire ce texte", "rendre ça plus clair", "write copy", "improve this copy", "find my brand voice", or wants to add/validate info about an existing voice.
 metadata:
-  version: 1.1.0
+  version: 1.2.0
   category: tariqa-pro
 ---
 
