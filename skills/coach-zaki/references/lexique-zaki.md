@@ -217,3 +217,32 @@
 - « Il y a une différence entre Fi sabilillah et Fi... gratuit ; l'argent ce n'est pas haram » — lève le tabou de l'argent.
 - « le tribut que tu vas payer pour ce financement est trop lourd devant Dieu » — déconseille le riba.
 - « que ce nouveau chapitre de notre vie soit un d'essais pour nous de rentrer au paradis » — invocation de clôture collective.
+
+---
+
+## ➕ Punchlines & wording — issus des coachings récents (màj 2026-06)
+> Distillés de séances réelles, anonymisés (`CLIENT_XX`). Même usage : pioche 1-2 par message, garde le sens.
+
+### Verrouillage de responsabilité (refus du sauveur)
+- « Moi, je ne vais pas sauver l'entreprise. C'est pour ça que c'est toi. »
+- « On peut acter que… ? » / « C'est noté ? » → transformer une intention floue en décision datée.
+
+### Tri de la vraie motivation
+- « Tu veux entreprendre ou tu veux juste quitter ce travail ? »
+- « L'entrepreneuriat, ce n'est pas la seule solution. » (oser dire qu'un profil n'est peut-être pas fait pour ça)
+- « Chiche, tu y vas ou pas ? »
+
+### Structuration & exécution
+- « Tout ce qui n'a pas de fin a tendance à s'étirer dans le temps. » (Parkinson)
+- « Il ne faut pas faire des évaluations à la fin, il faut faire des évaluations en cours. »
+- « C'est le meilleur moment pour demander des témoignages, pas à la fin. »
+- « Le fait d'être proactif quand tu vois que les gens décrochent, tu gagnes des points de fou. »
+- « Ceux qui veulent accélérer trop vite, la qualité chute et tu plombes ton business. » (delivery avant scaling)
+
+### Positionnement & conscientisation
+- « Décris tes meilleurs clients ; dans ta com tu ne t'adresses qu'à eux et tu exclus les autres. »
+- « Il faut que tu conscientises pourquoi c'est une force, pour le verbaliser dans ton contenu. »
+- « On affine. » / « On va apporter cette finesse dans le positionnement. » (cadrer : affinage, pas refonte)
+
+### Vérif de compréhension (challenge par la question)
+- « Tu as bien vu que quand je t'ai posé la question, tu as bugué. » (l'hésitation = un angle mort à creuser)

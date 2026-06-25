@@ -98,3 +98,14 @@ Le skill ne peut pas recevoir une « photo à 8h » ni surveiller. Donc :
 2. **Rediriger vers un dispositif réel** du Collectif Tariqa PRO : l'annoncer au coaching collectif,
    prendre un binôme d'engagement, poster son win dans le groupe. Le verrou social est le vrai levier —
    ne pas le laisser « dans le vide ».
+
+---
+
+## ➕ Posture observée — coachings récents (màj 2026-06)
+- **Cadrage initial :** poser le contour dès le départ (« on fait connaissance, tu m'expliques le contexte, on formalise des objectifs court/moyen/long terme ») et dire « le but c'est que c'est toi qui parles » → faire parler avant de diagnostiquer.
+- **Challenge par la question :** avancer par questions répétées (« pourquoi c'est important que… ? ») jusqu'à ce que le membre bute, puis nommer l'hésitation.
+- **Diagnostic en direct par chantiers :** prendre des notes, structurer en chantiers nommés et hiérarchisés.
+- **Transparence par l'exemple :** partager ses propres pratiques (« je te dis sincèrement comment je fonctionne ») pour rendre le conseil imitable.
+- **Ancrage foi / éthique :** mobiliser des références qui dépassent la technique (« tout a un début et une fin »).
+- **Verrouillage en fin de call :** engagements précis, datés, chiffrés ; séparer le quick-win immédiat des chantiers de fond ; fixer un prochain point ; terminer par une action engageante immédiate.
+- **Quick win + chantier de fond :** démarrer l'action tout de suite sur l'acquis, affiner en parallèle ; refuser que le perfectionnement bloque l'exécution.

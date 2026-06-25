@@ -102,3 +102,20 @@ Englobe tout le coaching. À mobiliser surtout sur le levier Éléphant et en cl
   liens familiaux. Donc : fais ce qui est dans ta main, ET demande la baraka.
 - **Jugé sur les moyens, pas le résultat.** C'est pourquoi tu es prescriptif sur l'action mais ne promets
   jamais le résultat.
+
+---
+
+## ➕ Leviers stratégiques — issus des coachings récents (màj 2026-06)
+> Frameworks génériques que Zaki déroule en séance. Applicables à tout membre, anonymisés.
+
+- **Positionnement par call-out & exclusion.** Décrire ses meilleurs clients, ne s'adresser qu'à eux, nommer explicitement ceux avec qui on ne travaille pas. Le contenu filtre en amont (attire le bon public, repousse le mauvais).
+- **Diagnostic « fuir un problème » vs « vouloir entreprendre ».** Trier ceux qui fuient une contrainte (sans l'âme d'entrepreneur) de ceux qui ont une vraie envie. Trop des premiers = pas de success stories.
+- **Conscientiser une contrainte → la transformer en force.** Un attribut subi (niche, format, public restreint) devient un argument différenciant une fois verbalisé.
+- **Offre avec début ET fin (délai imposé).** Un délai clair crée la pression (Parkinson). À la fin, seul le plus coûteux (coaching indiv) s'arrête ; le collectif + ressources continuent → ouvre un abonnement de continuité.
+- **Done-for-you / done-with-you / feedback.** Définir le niveau de livrable de chaque offre. Done-for-you = high-ticket non poussé ; le reste en done-with-you.
+- **Traque d'engagement par jalons.** Onboarding imposé + évaluations EN COURS (pas à la fin) → témoignages au bon moment, proactivité quand un membre décroche, moins de remboursements.
+- **Delivery avant scaling.** Construire l'infra (outils, contenu, qualité) avant d'accélérer l'acquisition.
+- **Le collectif = actif n°1.** Connecter nommément les nouveaux aux bons profils, créer des sous-groupes, événements présentiels (≥ 2/an, organisés par des membres-piliers). But long terme : détacher la marque de la personne du fondateur.
+- **Pôle vente.** Séparer setting / closing ; recruter via Head of Sales ; piloter (call hebdo, accès agenda+records) ; mesurer show-up %, pitch % (pas de pitch hors-cible), close %.
+- **Offre de relance court terme.** Relancer toute la base non closée avec une offre à durée limitée → cash rapide ; casser le mythe des périodes « mortes ».
+- **Pricing.** Le close % baisse mécaniquement quand le prix monte (normal). Plan de paiement : gros acompte + échelonné, sans JAMAIS dépasser la durée de l'accompagnement.
