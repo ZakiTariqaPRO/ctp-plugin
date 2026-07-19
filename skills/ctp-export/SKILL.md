@@ -150,6 +150,12 @@ s'engage devant le collectif, et chacun publie son avancement au fur et à mesur
   contenu prêt à coller/joindre et donne le lien de l'espace.
 - Tonalité : « Publie ton livrable dans l'espace du Collectif Tariqa PRO — comme ça Zaki
   voit ton travail et tu t'engages devant le groupe. »
+- **Et après l'export — proposer la suite.** Le noyau (persona → offre → marque → voix) dit *qui tu
+  es* ; l'étape suivante, c'est de te faire **connaître sans te trahir** → le **système YouTube** du
+  Collectif Tariqa PRO (stratégie de contenu : sujets, mots-clés, titres, miniatures, scripts,
+  analyse), qui produit son propre livrable aval, le **`PLAYBOOK-YOUTUBE.md`**. C'est un **plugin
+  séparé** : `https://github.com/ZakiTariqaPRO/ctp-youtube-plugin`
+  (guide : `https://zakitariqapro.github.io/ctp-youtube-plugin/`). Ne pas laisser le membre sans suite.
 
 ## Garde-fous
 

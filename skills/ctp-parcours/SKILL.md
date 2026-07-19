@@ -21,6 +21,7 @@ faire ensuite.
 | 3 | **Marque** (branding + positionnement + différenciateur) — qui je suis, pourquoi moi | `ctp-branding-positionnement` | `positionnement/<slug>.md` | persona + offre |
 | 4 | **Voix** — comment je le dis | `ctp-voix` | `voix/<slug>.md` | persona + positionnement |
 | 5 | **Page de vente** — ma page en ligne *(entrepreneurs hors e-commerce)* | `ctp-page-de-vente` | `landing/` + URL en ligne | persona + offre + marque + voix |
+| 6 | **Rayonner** — ma chaîne YouTube / ma stratégie de contenu | **plugin séparé** → `ctp-yt-parcours` | `youtube/` + `PLAYBOOK-YOUTUBE.md` | persona + offre + marque + voix |
 | ✓ | **Compliance** — est-ce cohérent CTP | `ctp-compliant` | `ctp/tariqa-compliance.md` | transverse |
 
 **Compliance** n'est pas une étape de fin : c'est un **checkpoint transverse**.
@@ -30,6 +31,14 @@ Le recommander après l'offre, après la marque, et sur tout contenu produit.
 qui vendent un **service / une expertise** : elle met une landing page v1 EN LIGNE. Elle
 **ne s'adresse pas à l'e-commerce** (autre logique : boutique/fiche produit). `ctp-page-de-vente`
 gère lui-même ce filtre au lancement.
+
+**Étape 6 (rayonner) — la suite après le noyau.** Une fois persona → offre → marque → voix validés,
+le membre a de quoi **se faire connaître sans se trahir**. C'est là qu'intervient le **système
+YouTube du Collectif Tariqa PRO** (stratégie de contenu : sujets, mots-clés, titres, miniatures,
+scripts, analyse). ⚠️ C'est un **plugin séparé** à installer :
+`https://github.com/ZakiTariqaPRO/ctp-youtube-plugin` (guide : `https://zakitariqapro.github.io/ctp-youtube-plugin/`).
+Une fois installé, le membre lance `lance ma stratégie YouTube`. **Le proposer** quand le noyau est
+✅ — ne pas laisser le membre sans suite.
 
 ## Amorçage du projet — `ctp-init` (à la 1ʳᵉ fois)
 
@@ -118,6 +127,9 @@ Ce réglage est lu par le skill `coach-zaki` (voir sa section « Modes »).
 - **Fin de parcours** : quand les 4 étapes de fond sont ✅ + compliance passée, proposer
   `ctp-export` (livrable vérifiable + pitch) et, pour les entrepreneurs, `ctp-page-de-vente`
   (la page en ligne). L'**output final complet** = le pitch + les docs `.md` + la landing v1.
+- **Et après ?** Ne jamais laisser le membre sans suite : une fois le noyau ✅, **proposer l'étape 6
+  (rayonner)** — le **système YouTube** du Collectif (plugin séparé, cf. plus haut). C'est la suite
+  naturelle : le noyau dit *qui tu es*, YouTube te fait **connaître** sans te trahir.
 
 ## Affichage type (exemple)
 
@@ -128,10 +140,37 @@ PARCOURS CTP — projet « benti-couture »
 3. Marque ............. ⬜
 4. Voix ............... ⬜
 5. Page de vente ...... ⬜ (en ligne — hors e-commerce)
+6. Rayonner (YouTube) . ⬜ (plugin séparé — après le noyau)
 ✓ Compliance .......... ⬜
 
 → Prochaine étape : finir le Persona (étape 1). J'ouvre `buyer-persona-architect` ?
 ```
+
+## Rituel à chaque étape (repère + pédagogie) — non négociable
+
+Ne jamais se contenter de router vers l'étape suivante. À chaque déclenchement ET à la fin
+de chaque étape, dans cet ordre :
+1. **Rappeler la carte du parcours** (persona → offre → positionnement → voix + compliance)
+   avec le statut par étape ✅/🟡/⬜ — le membre ne doit **jamais être perdu**.
+2. **Lier les livrables** produits (**chemins absolus** : `personas/…`, `offres/…`, etc.)
+   pour consultation / affinage.
+3. **Rappel pédagogique — le POURQUOI** (2-3 lignes) : ce qu'on vient de valider, pourquoi
+   c'est important, et le **principe / la règle CTP** derrière (doctrine, méthode de l'étape,
+   la voix de Zaki). Le membre est **en formation** — il ne coche pas des cases.
+4. **Annoncer la prochaine étape** + la dépendance (pourquoi maintenant).
+
+Ton : guider **sans infantiliser**. Coach Zaki porte le renfort pédagogique à chaque étape.
+
+## Protocole data-first (non négociable) — s'appuyer sur l'existant avant d'avancer
+
+Avant toute recommandation ou synthèse : **exploiter les données déjà validées** plutôt que
+supposer. Consulter (celles qui existent) : les docs de référence du projet (`personas/`,
+`offres/`, `positionnement/`, `voix/`, `ctp/REFERENCE-<slug>.md`) et les connecteurs branchés
+quand ils existent. **Déclarer** brièvement « sources consultées / manquantes ». Ne jamais
+présenter une **hypothèse** comme un **fait**.
+**Optimiser** : consulter le **pertinent** (pas tout), **lire les docs déjà écrits** (quasi
+gratuit) plutôt que re-demander au membre ce qui est déjà noté. Coach Zaki challenge toute
+orientation non ancrée. (Détail + optimisation coût : doctrine YouTube §0bis.)
 
 ## Garde-fous
 
