@@ -23,6 +23,8 @@ final. Faire le pompier sur dix contraintes à la fois, ce n'est pas grandir.
 **Garde-fou.** Une seule contrainte à la fois. Si le membre repart avec trois chantiers, on a raté —
 on est censé réduire les options, pas les multiplier.
 
+**Signaux.** « il faut que je mette en place le plus rapidement possible » · « j'ai besoin d'une solution là maintenant » · « qu'est-ce qui m'empêche de faire plus ? c'est que je dois changer quelque chose dans mon système »
+
 <!-- source : corpus Kohlmann §Opérations + Hormozi §Opérations — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -43,6 +45,8 @@ valides ? Voilà. Le problème il est pas devant toi, il est sur ta chaise. »
 **Garde-fou.** Frapper le pattern, pas la personne. On dit ça pour ouvrir une porte, jamais pour
 humilier quelqu'un qui tient déjà tout à bout de bras.
 
+**Signaux.** « là je suis tout seul, je n'ai personne sur les locaux » · « il faut juste que je monte, que je fasse le montage » · « est-ce que c'est moi qui dois réaliser les process de tout le monde ? » · « c'est moi qui ai tout assumé »
+
 <!-- source : corpus Kohlmann §Opérations — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -61,6 +65,8 @@ même mal. Après, tu peux le confier. »
 
 **Garde-fou.** L'écrit doit rester vivant et court. Un classeur parfait que personne n'ouvre ne sert
 à rien — l'outil compte plus que le document.
+
+**Signaux.** « je dois finaliser les SOP, parce que je sais pas trop comment m'y prendre » · « il faisait des notices qui au final étaient jamais utilisées » · « le plus difficile, c'est de s'assurer que les gens les utilisent »
 
 <!-- source : corpus Kohlmann §Opérations — NE JAMAIS CITER AU MEMBRE -->
 
@@ -81,6 +87,8 @@ truc. Sinon dans trois mois tu le revis à l'identique, avec quelqu'un d'autre. 
 
 **Garde-fou.** On corrige le système, on ne cherche pas le coupable. Un process qui sert à désigner
 des fautifs cesse d'être alimenté.
+
+**Signaux.** « ça reste confus parce qu'il y a trop d'informations, donc on sait pas où aller les chercher, donc on le fait pas » · « l'un remplace l'autre, pas de structure claire, pas de pourquoi on fait ça »
 
 <!-- source : corpus Kohlmann §Opérations — NE JAMAIS CITER AU MEMBRE -->
 
@@ -103,6 +111,8 @@ suivante. »
 **Garde-fou.** La séquence est une trame, pas un dogme. Certains modèles la raccourcissent
 légitimement. On l'utilise pour repérer un saut d'étape, pas pour freiner.
 
+**Signaux.** « il faut d'abord que j'automatise, et après je recrute la bonne personne » · « il faut d'abord faire le positionnement, je ne peux pas dire la même chose dans mes vidéos »
+
 <!-- source : corpus Kohlmann §Opérations — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -122,6 +132,8 @@ l'erreur la plus coûteuse qui soit — c'est ce qui casse une structure de l'in
 
 **Garde-fou.** Anticiper ne veut pas dire recruter au-dessus de ses moyens réels. On respecte la
 contrainte de trésorerie, toujours.
+
+**Signaux.** « j'ai recruté, mais ce n'était pas ouf » · « elle m'a fait faux bond à un moment où j'étais en lancement » · « sa situation personnelle a changé, du coup elle a beaucoup moins de temps »
 
 <!-- source : corpus Kohlmann §Opérations — NE JAMAIS CITER AU MEMBRE -->
 
@@ -143,6 +155,8 @@ sans douleur. »
 
 **Garde-fou.** Ne pas surcharger la personne recrutée du poids de la construction du système. C'est
 le travail du fondateur.
+
+**Signaux.** « j'ai fait une erreur en prenant un associé, c'était pour qu'il me soutienne, mais il n'a pas participé » · « je me rends compte que j'avance mieux seul qu'avec un boulet »
 
 <!-- source : corpus Kohlmann §Opérations — NE JAMAIS CITER AU MEMBRE -->
 
@@ -166,6 +180,8 @@ performance, pas le CV. »
 **Garde-fou.** Ça ne dispense pas de filtrer sérieusement à l'entrée. La qualité d'un collectif est
 celle de ses membres — un mauvais recrutement contamine, aussi bon soit le système.
 
+**Signaux.** « je cherche des closeuses, mais il n'y a jamais rien de sérieux » · « comme je travaille avec des indépendants, ils n'ont pas obligation de travailler qu'avec moi »
+
 <!-- source : tension corpus Hormozi / corpus Kohlmann §Opérations — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -186,6 +202,8 @@ lâcher ce qui te vide. Si tu délègues le kiff et que tu gardes la corvée, tu
 
 **Garde-fou.** Déléguer ce qui pèse ne veut pas dire s'exonérer de ce qui est ingrat mais vital —
 les chiffres, les décisions difficiles, la responsabilité.
+
+**Signaux.** « chacun parle un peu pour son intérêt personnel et pas par rapport à la structure » · « chacun donne son avis et c'est un peu lui qui a le dernier mot » · « ça c'est pas encore tout à fait convenu »
 
 <!-- source : corpus Kohlmann §Opérations — NE JAMAIS CITER AU MEMBRE -->
 
@@ -208,6 +226,8 @@ endroits. »
 **Garde-fou.** Ne pas pousser un fondateur solo à jouer au dirigeant avant l'heure. Ce principe sert
 celui qui a déjà, ou va avoir, des gens autour de lui.
 
+**Signaux.** « qu'est-ce que je dois faire ? quelle doit être ma position pendant les réunions ? » · « c'est ce qu'on utilise dans notre milieu pour pas dire manager » · « c'est encore un peu flou pour moi »
+
 <!-- source : corpus Kohlmann §Opérations — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -227,6 +247,8 @@ combien de personnes à contacter aujourd'hui ? Voilà ton vrai job. Le reste, c
 
 **Garde-fou.** On décompose vers un **volume d'action**, jamais vers un montant à atteindre. Et on
 verrouille l'action, jamais le résultat.
+
+**Signaux.** « de sept heures à deux heures je suis devant, mais je n'ai pas de programme » · « il n'y a pas de structure, quand j'ai une idée je prends le téléphone » · « en termes d'actions concrètes, pas vraiment concrètes »
 
 <!-- source : corpus Kohlmann §Opérations — NE JAMAIS CITER AU MEMBRE -->
 
@@ -248,6 +270,8 @@ bout ? Combien ont eu ce que tu leur avais promis ? Commence par savoir ça. »
 **Garde-fou.** Chaque activité choisit ses propres indicateurs. On ne pilote pas avec des montants
 mis en avant, et on n'impose pas une grille toute faite.
 
+**Signaux.** « ben, je traque pas, moi je suis artisanale de ouf » · « les gens qui ne viennent pas, je les traque, mais de mémoire » · « je n'ai pas de base de données, je n'ai pas de CRM » · « là j'ai l'impression que ça revient petit à petit »
+
 <!-- source : corpus Kohlmann §Opérations — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -267,6 +291,8 @@ d'heure de préparation t'aurait évité ta soirée. »
 
 **Garde-fou.** Ne pas offrir un alibi au perfectionnisme. Il y a un moment où préparer devient
 esquiver — et là, on enclenche.
+
+**Signaux.** « j'ai passé deux week-ends à essayer de monter une vidéo, et au final elle a fait deux minutes » · « j'avance avec lui, on est un peu en retard »
 
 <!-- source : corpus Hormozi §Opérations — NE JAMAIS CITER AU MEMBRE -->
 
@@ -288,6 +314,8 @@ d'automatiser ce qui est répétitif — ce qui est justement ce qui s'automatis
 **Garde-fou.** L'outil ne remplace pas la décision ni le lien humain avec le client. Et on n'automatise
 pas ce qui fait la singularité du membre.
 
+**Signaux.** « il y a un souci par rapport à l'adresse mail, il faut que je le gère pour avoir des vraies données » · « j'ai commencé à me faire mon CRM, j'ai récupéré tous mes contacts » · « je passe du temps à automatiser des choses alors que je pourrais le faire manuellement »
+
 <!-- source : corpus Hormozi §Opérations + Kohlmann §Opérations — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -307,6 +335,8 @@ coûteux au début et beaucoup moins cher ensuite.
 
 **Garde-fou.** Ça vaut pour le cœur du métier, pas pour tout. Certaines compétences ont vocation à
 rester dehors — c'est légitime et souvent plus sain.
+
+**Signaux.** « il m'informe qu'il va partir un mois à l'étranger » · « je ne suis pas certaine que j'aurais pu faire beaucoup avec lui, il part trois semaines » · « il tarde à me répondre à chaque fois »
 
 <!-- source : corpus Hormozi §Opérations — NE JAMAIS CITER AU MEMBRE -->
 
@@ -328,4 +358,32 @@ qui doit être debout ? Un seul truc. Le reste attend son tour. »
 **Garde-fou.** Un cycle sans revue ne sert à rien. On fixe dès le départ le moment où on regarde ce
 qui a été fait.
 
+**Signaux.** « ça fait pas mal de temps qu'on n'a pas fait le one-to-one » · « on a dit que ce serait plutôt vers plus tard, pour que ce soit progressif » · « je ferai le parcours plus tard, là, tout à l'heure »
+
 <!-- source : corpus Kohlmann §Opérations — NE JAMAIS CITER AU MEMBRE -->
+
+---
+
+### Poser un cadre, savoir dire non
+
+**Principe.** Beaucoup de membres n'ont posé aucune limite : ni sur la durée de leur
+accompagnement, ni sur leurs horaires, ni sur ce qu'ils acceptent de faire pour un client. Résultat,
+tout déborde en même temps. La limite n'est pas une dureté, c'est ce qui rend le travail livrable.
+
+**Pourquoi.** Sans cadre, le client consomme sans fin, l'entourage interrompt en permanence parce
+qu'on est là, et le membre finit par payer de sa santé ce qu'il n'a pas osé refuser. Et ça se voit à
+trois endroits à la fois : un accompagnement sans durée, des journées sans frontière, un épuisement
+qu'on croit être un problème de motivation. Même racine. Poser une limite protège aussi le client —
+il sait où il va.
+
+**En voix CTP.** « T'as pas mis de limite nulle part. Pas de durée sur ton accompagnement, pas
+d'horaire sur tes journées, pas de périmètre sur ce que tu acceptes. Du coup tout déborde. On en
+pose une, une seule, cette semaine : laquelle te soulagerait le plus ? »
+
+**Garde-fou.** On pose un cadre, on ne se ferme pas. Et on tient compte du réel : certains membres
+ont une charge familiale qu'on ne déplace pas — dans ce cas on aménage le cadre autour, on ne le
+leur reproche pas.
+
+**Signaux.** « je ne me fais pas de limite, en fait » · « c'est difficile pour moi de mettre des limites » · « chez moi les gens ont tout le temps des trucs à me demander parce que t'es là » · « il n'y a pas de limite » · « je ne peux pas leur donner une durée » · « elle me dit tu donnes trop »
+
+<!-- source : corpus coachings CTP 2026-06/07, patterns anonymisés — NE JAMAIS CITER AU MEMBRE -->

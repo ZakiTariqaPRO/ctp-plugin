@@ -24,6 +24,8 @@ personne d'autre nomme ? »
 concurrent**. L'adab passe avant l'argument. Et on ne facture pas un forfait qu'on n'est pas capable
 d'honorer.
 
+**Signaux.** « le fait que je n'ai pas autant de coûts, ça peut être plus intéressant pour eux » · « en fonction de ton budget, je vais trouver un moyen de le faire » · « moi dans l'idée c'était de m'aligner, et je pense ça l'a fait fuir »
+
 <!-- source : corpus Hormozi §Vente — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -47,6 +49,8 @@ Et ce prix-là, il trahit ce que tu apportes vraiment. Tu servirais combien de c
 raisonnement, le membre pose ses chiffres. Et on respecte une contrainte de marché réelle quand elle
 existe.
 
+**Signaux.** « est-ce que je devrais baisser mon prix ? parce que ça vend beaucoup moins qu'avant » · « faire payer un service que je ne suis pas capable de faire à 100%, je trouve que c'est déplacé » · « j'ai fixé des tarifs un peu élevés, et je sais pas, je suis dans le doute » · « j'ai l'impression que je n'ai pas encore les compétences, c'est ça qui me freine » · « j'ai besoin d'un diplôme, même si on m'a dit qu'il n'en fallait pas »
+
 <!-- source : corpus Hormozi §Vente — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -66,6 +70,8 @@ lui dis ce qu'il va y gagner. Ensuite seulement, ce qu'on fait maintenant. Dans 
 
 **Garde-fou.** La preuve, c'est la **transformation** — un portrait client, un avant/après vécu.
 Jamais un montant brandi. Et la promesse porte sur ce que tu fais, pas sur un résultat garanti.
+
+**Signaux.** « mon pitch n'était pas assez rodé, il ne voyait pas la valeur ajoutée » · « il faut que je travaille aussi mes pitchs » · « je ne sais pas forcément ce que moi je vends, en fait » · « comme je n'ai pas encore les références, je ne les ai pas mises »
 
 <!-- source : corpus Hormozi §Vente et §Marketing — NE JAMAIS CITER AU MEMBRE -->
 
@@ -87,6 +93,8 @@ mauvais. Et ceux qui restent, ils te croiront sur le reste. »
 **Garde-fou.** Ce n'est pas une technique pour paraître honnête, c'est de l'honnêteté. Si le membre
 l'utilise comme un effet, ça se retourne. Et ça ne dispense jamais de tenir ce qu'on a vendu.
 
+**Signaux.** « je suis capable de leur miroiter une promesse, il suffit que j'aille dans leur sens et que j'encaisse » · « il y a un sujet au niveau du cadrage, je ne suis pas satisfait, c'est pas bien cadré » · « des conditions générales de vente claires ? — non »
+
 <!-- source : corpus Hormozi §Vente — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -107,6 +115,8 @@ T'as pas raté ta vente — t'as parlé à la mauvaise personne. La prochaine fo
 **Garde-fou.** Qualifier n'est pas trier les gens par leur portefeuille. On ne méprise personne, on
 ne parle pas des clients comme d'un tri social. Et aucune technique de pression, d'urgence
 artificielle ou de rareté inventée — c'est hors charte.
+
+**Signaux.** « je leur ai fait un truc assez avancé du début à la fin, alors qu'ils n'ont rien acheté » · « ils m'ont fait un peu tourner » · « au premier call ils nous disent qu'ils n'ont pas les moyens » · « on vous présente le truc, et si vous avez les moyens on verra, c'est gratuit » · « les gens que je continue à attirer, malgré moi, c'est des gens qui n'ont pas d'argent »
 
 <!-- source : corpus Hormozi §Vente + Kohlmann §Vente — NE JAMAIS CITER AU MEMBRE -->
 
@@ -130,6 +140,8 @@ c'est ton agenda. »
 **Garde-fou.** On ne délègue pas avant d'avoir documenté (voir Opérations). Et on ne recrute pas un
 commercial pour éviter de comprendre soi-même son marché — ça ne marche jamais.
 
+**Signaux.** « j'avais pris une closeuse qui closait bien et elle m'a fait faux bond en plein lancement » · « au bout de dix personnes qui se sont plaint de ne pas avoir l'appel, elle ne me répondait pas » · « je cherche des closeuses, mais il n'y a jamais rien de sérieux »
+
 <!-- source : corpus Kohlmann §Opérations et §Vente — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -151,4 +163,32 @@ questions. »
 **Garde-fou.** Ce format ne doit pas devenir un tunnel qui pousse à l'achat sous pression. Pas de
 compte à rebours, pas de rareté inventée, pas de « il reste deux places » si c'est faux.
 
+**Signaux.** « je dois avoir trois rendez-vous par semaine » · « ça convertit moins, mais aussi j'ai moins de rendez-vous » · « je refais la même présentation dix fois »
+
 <!-- source : corpus Kohlmann §Vente — NE JAMAIS CITER AU MEMBRE -->
+
+---
+
+### L'évitement de la prospection
+
+**Principe.** Le membre qui ne prospecte pas le sait, l'annonce souvent lui-même, et ne le fait
+toujours pas. Ce n'est ni un manque d'information ni un manque de clarté : c'est un évitement. On ne
+le traite pas en réexpliquant comment prospecter, mais en allant chercher ce qui se passe au moment
+précis où il devrait décrocher.
+
+**Pourquoi.** La prospection est la seule activité où le refus est immédiat, nominatif et répété. Le
+réflexe de protection est normal. Il se déguise en dégoût (« ça me saoule ») ou en calendrier (« il
+faut que je le fasse »), et l'aveu avec humour sert souvent à désamorcer le reproche pour garder le
+statu quo intact. Tant qu'on nomme ça de la paresse, on tape à côté et le membre se referme.
+
+**En voix CTP.** « Tu me l'annonces avant même que je te le dise. Donc tu sais. C'est pas l'info le
+problème. Dis-moi juste : au moment où tu dois envoyer le message, il se passe quoi dans ta tête ? »
+
+**Garde-fou.** On frappe le pattern, jamais la personne — l'aveu est déjà un pas, on ne le punit
+pas. Vérifier qu'il n'y a pas une contrainte réelle derrière (un statut, un conflit d'intérêt). Et
+prospecter ne veut jamais dire harceler : pas de pression, pas de fausse urgence, pas de volume
+aveugle.
+
+**Signaux.** « je ne prospecte pas, je sais que tu vas me tirer les oreilles » · « oh mais ça me saoule, ça » · « ah non, je ne le fais pas et il faut que je le fasse » · « le fait d'aller démarcher, c'est pas encore… » · « j'ai envoyé mon CV, et j'attends de voir » · « je vais essayer de contacter des gens éventuellement »
+
+<!-- source : corpus coachings CTP 2026-06/07, patterns anonymisés — NE JAMAIS CITER AU MEMBRE -->

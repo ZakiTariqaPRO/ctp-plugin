@@ -21,6 +21,8 @@ Parce que si tu remplis un seau percé, t'auras beau ramer, ça descend. »
 **Garde-fou.** Retenir ne veut pas dire enfermer. Aucun mécanisme qui rend le départ difficile ou
 culpabilisant. On garde par la valeur, jamais par la friction.
 
+**Signaux.** « beaucoup de gens qui procrastinent également, malheureusement » · « quand on arrive à la création de contenu, elles vont bloquer pendant 3 mois, 4 mois »
+
 <!-- source : corpus Hormozi §Produit — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -41,6 +43,8 @@ que ça casse. »
 
 **Garde-fou.** Les indicateurs de livraison sont propres à chaque activité — taux de complétion,
 clients qui ont obtenu leur transformation. On ne pilote pas ça avec des montants.
+
+**Signaux.** « ma cible, elles ne sont pas aptes, elles ne savent pas passer à l'action » · « des fois leurs blocages et leurs tâches quotidiennes font qu'en six mois elles ne font rien » · « franchement, il y a deux ou trois personnes qui le prennent »
 
 <!-- source : corpus Kohlmann §Opérations + Hormozi §Produit — NE JAMAIS CITER AU MEMBRE -->
 
@@ -63,6 +67,8 @@ an. »
 **Garde-fou.** On crée du lien, pas de la dépendance. Le but est que le client devienne autonome, pas
 qu'il ait besoin du groupe pour toujours.
 
+**Signaux.** « l'outil communauté, apparemment, elles n'accrochent pas » · « il y a beaucoup de gens dont le conjoint ne croit pas en elles » · « avant j'étais seul, et en étant entrepreneur la solitude c'est très compliqué »
+
 <!-- source : corpus Hormozi §Produit — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -84,6 +90,8 @@ une fois. Après, tu gardes ton direct pour ce qui le mérite vraiment. »
 **Garde-fou.** Ne pas dégrader l'accompagnement au passage. Passer en groupe est un choix de modèle,
 pas une façon de servir moins bien pour le même prix.
 
+**Signaux.** « ce n'est pas du temps que je vends… et j'ai peur que ça dure » · « j'ai un client principal qui me prend déjà 7h30 de mon temps » · « je les coache, mais je ne vais pas lui faire son tunnel de vente »
+
 <!-- source : corpus Kohlmann §Produit et §Opérations — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -103,6 +111,8 @@ clients en font déjà pas la moitié. Enlève, cadre, et tu verras qu'ils avanc
 
 **Garde-fou.** Ne jamais s'en servir pour justifier de livrer moins que promis. On simplifie l'offre
 et on l'annonce clairement — on ne rogne pas en silence.
+
+**Signaux.** « il n'y a pas de limite » · « je ne peux pas leur donner une durée, je ne peux pas leur dire en six mois tu vas réussir » · « il y en a qui veulent que je fasse tout avec elles » · « j'ai pas arrêté d'améliorer, et je pense que j'ai pas fini »
 
 <!-- source : corpus Hormozi §Produit — NE JAMAIS CITER AU MEMBRE -->
 
@@ -125,6 +135,8 @@ un week-end, t'as pas d'offre, t'as un assemblage. Qu'est-ce que t'as, toi, que 
 **Garde-fou.** Le différenciateur doit être réel et vérifiable. Pas une promesse habillée. En cas de
 doute sérieux, passer la main au parcours positionnement.
 
+**Signaux.** « je suis d'accord avec toi, c'est un peu générique » · « j'ai l'impression que c'est ça vraiment mon point différenciateur » · « la qualité du travail que je vends, c'est que je documente tout »
+
 <!-- source : corpus Hormozi §Produit — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -144,5 +156,7 @@ uniquement parce qu'il s'en sort pas, faut qu'on en parle. »
 
 **Garde-fou.** Ça vaut aussi pour ce qui dépasse la compétence du membre — la santé, le psychique,
 le religieux. On oriente vers qui de droit, on ne bricole pas.
+
+**Signaux.** « il y en a qui veulent que je fasse tout avec elles » · « quand tu offres un service à quelqu'un qui paye, il faut lui donner le meilleur de soi »
 
 <!-- source : corpus Kohlmann §Produit — NE JAMAIS CITER AU MEMBRE -->

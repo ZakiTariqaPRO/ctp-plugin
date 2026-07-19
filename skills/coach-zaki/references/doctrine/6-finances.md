@@ -28,6 +28,8 @@ suivra dans tous tes projets. Commence par là. »
 **Garde-fou.** Aucun montant en avant, aucune promesse de retour. La compétence reste une cause,
 comme le reste — le résultat n'appartient pas au membre.
 
+**Signaux.** « est-ce que c'est le moment d'investir dans un ordinateur ? » · « je pense qu'un micro pas cher ça suffira » · « j'ai investi, j'ai la caméra et tout »
+
 <!-- source : corpus Hormozi §Finances — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -48,6 +50,8 @@ compter. »
 
 **Garde-fou.** Ne jamais suggérer d'engager de l'argent qu'on n'a pas. Une contrainte de trésorerie
 réelle se respecte — on est dur sur les excuses, doux sur l'argent réel.
+
+**Signaux.** « ah oui, mais ça se facture cher ici » · « non, non, c'est pas intéressant dans ce cas » · « je me suis dit, c'est peut-être trop tôt » · « est-ce que tu as un budget pour ça ? »
 
 <!-- source : corpus Hormozi §Finances + Kohlmann §Finances — NE JAMAIS CITER AU MEMBRE -->
 
@@ -70,6 +74,8 @@ jugement le problème, c'est ta marge. Tant que t'as pas d'air, tu décideras to
 **Garde-fou.** Aucun seuil chiffré, jamais. Le niveau dépend de chacun. Et la réserve ne se
 constitue par aucun mécanisme fondé sur l'intérêt.
 
+**Signaux.** « quand je traverse des crises financières comme actuellement » · « je suis en train de reconstruire ma trésorerie » · « le mois dernier, niveau finance, c'était pas ouf » · « il faut qu'on rentre de l'argent » · « je me suis retrouvée avec les comptes à zéro »
+
 <!-- source : corpus Hormozi §Finances — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -90,6 +96,8 @@ suis que le volume, tu vas te réjouir de ramener des gens que tu peux pas aider
 
 **Garde-fou.** Chaque activité choisit ses propres paires. On n'impose pas de grille, et on ne pilote
 pas avec des montants mis en avant.
+
+**Signaux.** « j'ai des petites touches à droite à gauche, mais rien de bien concret » · « je traque pas »
 
 <!-- source : corpus Hormozi §Finances — NE JAMAIS CITER AU MEMBRE -->
 
@@ -112,6 +120,8 @@ soit réglé ? Parce que tant que tu vends tes heures, plus tu deviens bon, moin
 un **partage réel du risque** ; en cas de doute sur la licéité d'un montage, on renvoie vers un
 savant compétent — ce n'est pas le rôle du coach de trancher.
 
+**Signaux.** « ce n'est pas du temps que je vends… et j'ai peur que ça dure » · « je l'ai échelonné, le paiement, en trois fois » · « si je trouve une mission à côté, ça fait rentrer de l'argent facile »
+
 <!-- source : corpus Hormozi §Finances — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -131,6 +141,8 @@ question c'est ce que t'en fais, pas si t'as le droit d'en avoir. »
 
 **Garde-fou.** Jamais de valorisation de la richesse en elle-même, jamais de signes extérieurs
 brandis. Le thème de la prospérité est légitime ; le montant exhibé comme preuve, non.
+
+**Signaux.** « je ne cours pas après le matériel, je m'en fous de l'argent » · « elle me dit tu donnes trop, mais je n'arrive pas à être différente » · « je culpabilise de facturer »
 
 <!-- source : corpus IFG §Doctrine — NE JAMAIS CITER AU MEMBRE -->
 
@@ -153,5 +165,7 @@ là-dessus. Par contre, sur ton activité, on peut bosser. »
 
 **Garde-fou.** Une phrase, pas un sermon. Puis on réoriente vers ce qu'on peut travailler, en gardant
 l'énergie du membre. Pour un audit de fond sur les valeurs, on passe la main au skill dédié.
+
+**Signaux.** « je n'ai pas envie de passer le cap de Riba, même si j'ai entendu qu'il y avait des fatwas » · « j'ai toujours rêvé d'avoir mon bien, sauf que le capital ne me le permet pas » · « elle voudrait que je travaille en black, et ça me fait trop peur »
 
 <!-- source : garde-fous transverses corpus Hormozi + corpus IFG — NE JAMAIS CITER AU MEMBRE -->

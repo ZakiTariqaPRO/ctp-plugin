@@ -21,6 +21,8 @@ pensent à toi. Aujourd'hui, il vient quoi ? Si tu sais pas, personne le sait no
 **Garde-fou.** Les associations se construisent sur des valeurs et des transformations réelles.
 Jamais sur des signes extérieurs de réussite matérielle.
 
+**Signaux.** « j'ai pas de site internet » · « je trouvais que ça faisait très CV avec plein de pages » · « je refais mon logo »
+
 <!-- source : corpus Hormozi §Marketing — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -41,6 +43,8 @@ paie pas. Des gens que t'as envie d'aider, oui. »
 
 **Garde-fou.** Pas de contenu conçu pour faire du nombre. Et jamais de contenu polémique pour
 provoquer la réaction : on peut avoir de la portée sans chercher le clivage.
+
+**Signaux.** « les deux vidéos qui ont marché, elles m'ont ramené un public que je ne veux pas » · « j'ai un reel qui a fait beaucoup de vues, je ne sais pas comment il a fait » · « je pense que c'est la communauté qui est venue »
 
 <!-- source : corpus Hormozi §Marketing — NE JAMAIS CITER AU MEMBRE -->
 
@@ -64,6 +68,8 @@ un truc. »
 **Garde-fou.** Enseigner ne veut pas dire tout donner sans cadre. On enseigne le pourquoi et le
 comment ; l'accompagnement garde sa raison d'être.
 
+**Signaux.** « jusqu'à maintenant c'est du freestyle, j'arrive pas… » · « moi, je n'ai pas de ligne éditoriale » · « au fond, je n'arrive pas à respecter ça » · « ma cible, elle ne va pas » · « je ne parle jamais des problématiques du salariat »
+
 <!-- source : corpus Hormozi §Marketing — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -84,6 +90,8 @@ en toi, et que ce que tu conseilles marche quand ils le font. Le reste suit tout
 
 **Garde-fou.** L'autorité se prouve par le travail et les transformations obtenues, jamais par des
 montants ni des signes de train de vie.
+
+**Signaux.** « il faut que je sois d'abord légitime avant d'ouvrir les portes » · « il faut que les personnes me suivent un peu plus » · « lui il montre à chaque fois son écran, niveau montage il faut un niveau plus haut »
 
 <!-- source : corpus Hormozi §Marketing — NE JAMAIS CITER AU MEMBRE -->
 
@@ -107,6 +115,8 @@ investisseurs. On regarde comment ? »
 pour trancher religieusement. Et on ne promet aucun enrichissement en échange d'une pratique
 cultuelle.
 
+**Signaux.** « je veux parler de business et de deen mais je sais pas comment » · « j'ai peur que ça fasse donneur de leçons »
+
 <!-- source : corpus IFG §Hook et §Structure — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -126,6 +136,8 @@ qu'il en fait ce soir. Sinon c'est juste une jolie phrase de plus. »
 
 **Garde-fou.** L'ancrage scripturaire s'utilise avec précaution et justesse. En cas de doute sur une
 source ou une interprétation, on renvoie vers un savant — on ne bricole pas du religieux.
+
+**Signaux.** « il faut que je montre un peu, que je ne reste pas abstrait » · « cette phrase, il y a trop d'exceptions »
 
 <!-- source : corpus IFG §Structure — NE JAMAIS CITER AU MEMBRE -->
 
@@ -147,6 +159,8 @@ répéter, et donc personne peut la transmettre à ta place. »
 **Garde-fou.** On nomme ce qui existe réellement. Un cadre nommé mais creux se retourne vite contre
 celui qui l'a inventé.
 
+**Signaux.** « j'ai un savoir-faire, j'en ai fait une méthode » · « je ne sais pas forcément ce que moi je vends »
+
 <!-- source : corpus IFG §Structure — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -167,6 +181,8 @@ donner des raisons de te faire confiance. Après, tu accélères ce qui marche d
 **Garde-fou.** Ne pas transformer la publicité en pari. Et le message doit rester vérifiable : une
 promesse qu'un tiers pourrait juger vraie ou fausse, pas une formule vague.
 
+**Signaux.** « mon système d'acquisition, il se repose sur la création de contenu » · « moi j'ai sous-estimé ce réseau, la clientèle elle est dedans »
+
 <!-- source : corpus Kohlmann §Marketing — NE JAMAIS CITER AU MEMBRE -->
 
 ---
@@ -186,5 +202,7 @@ rare, c'est ton avis, ton vécu, ta manière de trancher. C'est ça qu'on veut e
 
 **Garde-fou.** On outille, on n'externalise pas sa voix. Un contenu qui ne porte pas la marque du
 membre ne construit rien pour lui.
+
+**Signaux.** « je passe du temps à automatiser des choses alors que je pourrais le faire manuellement » · « je suis d'accord avec toi, c'est un peu générique »
 
 <!-- source : corpus IFG §Doctrine — NE JAMAIS CITER AU MEMBRE -->
