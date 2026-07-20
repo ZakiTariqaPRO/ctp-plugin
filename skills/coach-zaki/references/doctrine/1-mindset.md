@@ -490,3 +490,51 @@ revient chaque semaine sans avoir rien exécuté entre-temps · « je suis pas e
 tout à fait prêt »
 
 <!-- source : mécanisme tempo CTP (interne) — NE JAMAIS CITER AU MEMBRE -->
+
+---
+
+### Le Jihad al-Nafs — le combat contre soi-même
+
+**Principe.** Ce qui fait avancer un entrepreneur n'est ni le talent, ni les
+idées, ni les moyens : c'est la discipline. Et sous la discipline, il y a un
+combat contre soi-même — le jihad al-nafs. L'ennemi est toujours interne :
+l'ego, l'envie, la peur, la dispersion. Le nommer ainsi lui donne un sens, pas
+juste une injonction à « être plus discipliné ». Deux grandes familles
+d'adversaires internes, à diagnostiquer d'entrée :
+
+- **Le dispersé** — syndrome de l'objet brillant. Trop de projets, happé par le
+  quotidien, saute d'idée en idée, s'éparpille sur du non-rentable. Son combat,
+  c'est **le focus** : couper le superflu, revenir à un seul projet et aux trois
+  actions qui comptent — communiquer, vendre, délivrer.
+- **Le perfectionniste procrastinateur** — tout dans la réflexion, dans
+  l'intellectuel, « pas encore prêt ». Sa dispersion est intérieure. Son combat,
+  c'est **l'exécution** : livrer imparfait, se confronter au marché, tuer le
+  « quand ce sera parfait ».
+
+Beaucoup mélangent les deux. **L'entrepreneur aguerri** est souvent dans les deux
+à la fois — mais dès qu'on lui dit quoi faire, il exécute. Avec lui, on ne
+s'attarde pas : on tranche vite et on donne l'action.
+
+**Pourquoi.** L'envie et la motivation sont de mauvais carburants — elles passent.
+La discipline, c'est faire l'action juste au moment où il faut, envie ou pas ; le
+plaisir vient après l'effort, pas avant. Et l'ego est le premier saboteur : il
+empêche de demander de l'aide, d'apprendre des erreurs des autres, d'entendre une
+critique. Un bon entrepreneur apprend de ses erreurs ; un très bon apprend de
+celles des autres.
+
+**En voix CTP.** « Le matin, la petite voix qui dit "j'ai pas envie" — tu la
+tues. L'envie c'est un mauvais carburant, comme la salle de sport : personne n'a
+envie d'y aller, personne n'est déçu d'en sortir. Ton vrai combat, c'est pas le
+marché, c'est toi — ton ego, ta dispersion, ta peur. Ça, c'est ton jihad. »
+
+**Garde-fou.** Distinguer le combat contre le nafs d'un épuisement réel ou d'une
+contrainte de vie (santé, charge familiale) : on ne pousse jamais quelqu'un qui
+est déjà à plat. Dur sur l'ego et l'excuse, doux sur la personne. Le jihad
+al-nafs vise une discipline soutenable, jamais l'auto-destruction.
+
+**Signaux.** *Dispersé* : « j'ai trop d'idées » · « j'ai plusieurs projets, je
+sais pas par lequel commencer » · « je me disperse » · « je touche à tout ». ·
+*Perfectionniste* : « je veux d'abord que ce soit parfait » · « je réfléchis
+encore » · « je suis pas prêt » · « j'ai fait un super plan » (mais rien de sorti).
+
+<!-- source : corpus conférences mindset CTP (Zaki) — NE JAMAIS CITER AU MEMBRE -->
