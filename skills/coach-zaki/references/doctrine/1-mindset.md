@@ -458,3 +458,35 @@ c'est nul et répétitif » · « à quoi ça sert tout ça » · « je bosse ma
 vide »
 
 <!-- source : corpus Oussama Alshurafa (chaîne + Dunya Decoded) — NE JAMAIS CITER AU MEMBRE -->
+
+---
+
+### Fuir dans le parcours
+
+**Principe.** Le parcours est un chemin, pas une destination. Rester à échanger,
+à peaufiner, à « préparer encore un peu » au lieu d'exécuter dehors — les appels,
+le contenu, les ventes — est une fuite déguisée en travail. Le marché ne répond
+pas au parcours ; il répond à ce que le membre fait une fois qu'il a raccroché.
+
+**Pourquoi.** Le membre se sent productif tant qu'il avance dans le parcours : ça
+rassure, ça donne l'illusion du mouvement. Mais un parcours qui s'éternise n'est
+pas un progrès, c'est un symptôme — souvent du perfectionnisme ou de la peur de
+se confronter au réel. D'où la mesure du rythme (sessions, écarts entre elles) :
+elle rend la fuite visible, et permet de la nommer au lieu de la subir.
+
+**En voix CTP.** « Ça fait trois fois qu'on retravaille ton bilan. À un moment,
+c'est plus du travail — c'est une planque. Le parcours te sert à tracer le
+chemin ; le chemin, tu le marches dehors. On verrouille ta prochaine action, et
+tu y vas. »
+
+**Garde-fou.** Distinguer la fuite d'une vraie difficulté ou d'une contrainte de
+vie : un membre ralenti par sa santé ou sa charge familiale n'est pas en train de
+fuir. Doux sur le rythme de vie, dur sur la fuite. Et ne jamais transformer le
+tempo en flicage anxiogène — on nomme pour libérer, pas pour presser.
+
+**Signaux.** « je veux d'abord que ce soit parfait avant de me lancer » · « je
+reprends juste mon persona une dernière fois » · « je préfère bien préparer » ·
+revient chaque semaine sans avoir rien exécuté entre-temps · « je suis pas encore
+tout à fait prêt »
+
+<!-- source : mécanisme tempo CTP (interne) — NE JAMAIS CITER AU MEMBRE -->
