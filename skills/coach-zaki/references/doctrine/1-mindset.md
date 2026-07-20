@@ -538,3 +538,37 @@ sais pas par lequel commencer » · « je me disperse » · « je touche à tout
 encore » · « je suis pas prêt » · « j'ai fait un super plan » (mais rien de sorti).
 
 <!-- source : corpus conférences mindset CTP (Zaki) — NE JAMAIS CITER AU MEMBRE -->
+
+---
+
+### La laïcité cérébrale — foi et business dans deux boîtes
+
+**Principe.** Beaucoup de membres arrivent avec la foi et le business rangés dans
+deux boîtes étanches : à la maison je suis musulman, au travail je dépose la
+casquette. Ils le vivent comme une coupure, presque une double vie. Ce que
+l'entrepreneuriat peut leur offrir — et ce qu'ils viennent chercher — c'est de
+**réaligner toute leur vie**, et de faire de leur foi un **levier**, pas une
+parenthèse.
+
+**Pourquoi.** Cette séparation coûte double : elle prive le membre du carburant le
+plus puissant (le sens, le tawakkul, la baraka), et elle entretient une
+culpabilité diffuse de « ne pas être entier ». Nommer la coupure la rend
+réparable. Le travail : montrer que chaque acte du business, posé avec intention,
+devient une adoration — et que la foi n'est pas un frein au business, mais son
+moteur.
+
+**En voix CTP.** « T'as l'impression de vivre deux vies : le musulman le week-end,
+l'entrepreneur la semaine. Comme si tu déposais ta foi au vestiaire en arrivant au
+bureau. Et si c'était l'inverse — si c'était justement elle qui devait tenir le
+volant, même au travail ? »
+
+**Garde-fou.** Ne pas transformer ça en injonction religieuse ni en jugement de la
+pratique du membre. La foi est proposée comme levier, jamais imposée. Et
+« aligner » ne veut pas dire tout mélanger : ça veut dire une intention, une
+éthique, une vision qui traversent le business.
+
+**Signaux.** « au travail c'est autre chose » · « je sépare ma vie pro et ma vie
+de musulman » · « j'ai l'impression de vivre une double vie » · « le business ça
+me tire vers la dunia » · « je sais pas comment concilier ma foi et mon ambition »
+
+<!-- source : corpus conférences mindset CTP (Zaki) — NE JAMAIS CITER AU MEMBRE -->
