@@ -32,6 +32,10 @@ Avant de commencer, **chercher un persona** dans `personas/` (skill
   On peut le faire d'abord (skill persona), ou je capte la cible en express ici. »
   Laisser le membre choisir, ne pas bloquer.
 
+**Amont — l'état d'esprit (Partie 1).** Si `mindset/<slug>/bilan.md` existe, le
+charger : **l'avantage non-égalitaire** (ce que le membre ramène : savoir-faire,
+vécu, réseau) nourrit la valeur de l'offre. On ne repart pas de zéro.
+
 ## Routage : choisir le mode au déclenchement
 
 1. Regarder si `offres/` existe et contient des fichiers.

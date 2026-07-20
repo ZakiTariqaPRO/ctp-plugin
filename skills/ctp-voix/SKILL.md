@@ -33,6 +33,9 @@ Charger avant de commencer :
   douleurs, son niveau). On écrit dans SA langue, pas la nôtre.
 - **Positionnement** (`positionnement/<slug>.md`) → **levier dominant, messages-clés,
   différenciateur, archétype**. La voix incarne le positionnement.
+- **L'intention de l'état d'esprit** (`mindset/<slug>/intention.md`) → le
+  **pourquoi** du membre et ses moteurs (Reda, progrès, contribution). La voix
+  porte ce pourquoi ; c'est ce qui la rend sincère.
 Annoncer ce qu'on a chargé. Si l'un manque : le signaler (« la voix sera plus juste
 avec un persona / un positionnement ») et capter l'essentiel en express, sans bloquer.
 

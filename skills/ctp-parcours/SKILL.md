@@ -1,6 +1,6 @@
 ---
 name: ctp-parcours
-description: Porte d'entrée et chef d'orchestre de la méthode Collectif Tariqa PRO. Scanne où en est le projet, affiche la carte du parcours (persona → offre → marque [branding + positionnement] → voix → page de vente en ligne [hors e-commerce], + compliance transverse) avec le statut de chaque étape, et lance la bonne étape suivante dans le bon ordre. Use when the user asks "par où commencer", "lance le parcours CTP", "où j'en suis", "étape suivante", "méthode Tariqa PRO", "start CTP", "guide moi", or doesn't know which CTP skill utiliser.
+description: Porte d'entrée et chef d'orchestre du pilier 1 (Mindset) de la méthode Collectif Tariqa PRO, dans ses DEUX moitiés : Partie 1 l'état d'esprit (skill ctp-mindset, 7 modules) puis Partie 2 Mon projet (persona → offre → marque [branding + positionnement] → voix → page de vente en ligne [hors e-commerce], + compliance transverse). Scanne où en est le projet sur les deux moitiés, affiche la carte complète, câble le passage entre l'état d'esprit et Mon projet, et lance la bonne étape suivante dans le bon ordre. Use when the user asks "par où commencer", "lance le parcours CTP", "où j'en suis", "étape suivante", "méthode Tariqa PRO", "start CTP", "guide moi", or doesn't know which CTP skill utiliser.
 metadata:
   version: 1.3.0
   category: tariqa-pro
@@ -12,17 +12,49 @@ Point d'entrée unique de la méthode Collectif Tariqa PRO. Garantit que chaque
 membre avance dans **le bon ordre**, sans sauter d'étape, et sait toujours quoi
 faire ensuite.
 
-## L'ordre canonique (ne pas dévier)
+## Le pilier 1 en deux moitiés — l'ordre canonique (ne pas dévier)
+
+Ce parcours couvre **tout le pilier 1 (Mindset)**, en deux moitiés qui s'enchaînent.
+On ne commence Mon projet qu'une fois l'état d'esprit posé.
+
+### Partie 1 — L'état d'esprit  (skill `ctp-mindset`)
+
+Sept modules, dans l'ordre. Livrables dans `mindset/<slug>/`.
+
+| # | Module | Livrable |
+|---|---|---|
+| 0 | Le bilan | `mindset/<slug>/bilan.md` |
+| 1 | L'ancrage | `mindset/<slug>/ancrage.md` |
+| 2 | Toi ↔ Dieu (intention) | `mindset/<slug>/intention.md` |
+| 3 | Toi ↔ toi-même (posture) | `mindset/<slug>/posture.md` |
+| 4 | Toi ↔ ton environnement | `mindset/<slug>/environnement.md` |
+| 5 | Le rituel & l'agenda | `mindset/<slug>/agenda.md` |
+| 6 | Le commencement | `mindset/<slug>/commencement.md` |
+
+Le module 6 — **Le commencement** — est le **passage** : il n'ouvre la Partie 2
+que si les actes sont là (projet nommé, acte public, agenda tenu deux semaines,
+validé en call).
+
+### Partie 2 — Mon projet
 
 | # | Étape | Skill | Fichier produit | Dépend de |
 |---|---|---|---|---|
-| 1 | **Persona** — à qui | `buyer-persona-architect` | `personas/<slug>.md` | — |
-| 2 | **Offre** — quoi | `ctp-offre` | `offres/<slug>.md` | persona |
-| 3 | **Marque** (branding + positionnement + différenciateur) — qui je suis, pourquoi moi | `ctp-branding-positionnement` | `positionnement/<slug>.md` | persona + offre |
-| 4 | **Voix** — comment je le dis | `ctp-voix` | `voix/<slug>.md` | persona + positionnement |
+| 1 | **Persona** — à qui | `buyer-persona-architect` | `personas/<slug>.md` | les directions du **bilan** |
+| 2 | **Offre** — quoi | `ctp-offre` | `offres/<slug>.md` | persona + bilan |
+| 3 | **Marque** (branding + positionnement + différenciateur) — qui je suis, pourquoi moi | `ctp-branding-positionnement` | `positionnement/<slug>.md` | persona + offre + **l'avantage non-égalitaire (bilan)** |
+| 4 | **Voix** — comment je le dis | `ctp-voix` | `voix/<slug>.md` | persona + positionnement + **l'intention (Toi↔Dieu)** |
 | 5 | **Page de vente** — ma page en ligne *(entrepreneurs hors e-commerce)* | `ctp-page-de-vente` | `landing/` + URL en ligne | persona + offre + marque + voix |
 | 6 | **Rayonner** — ma chaîne YouTube / ma stratégie de contenu | **plugin séparé** → `ctp-yt-parcours` | `youtube/` + `PLAYBOOK-YOUTUBE.md` | persona + offre + marque + voix |
 | ✓ | **Compliance** — est-ce cohérent CTP | `ctp-compliant` | `ctp/tariqa-compliance.md` | transverse |
+
+### Le câblage entre les deux moitiés — imbriquer, ne pas juxtaposer
+
+En entrant dans la Partie 2, **charger d'abord les livrables de la Partie 1** et ne
+jamais reposer une question déjà répondue dans l'état d'esprit :
+- le **bilan** (`mindset/<slug>/bilan.md`) → l'avantage non-égalitaire nourrit la
+  **marque/positionnement** et l'**offre** ; les directions nourrissent le **persona** ;
+- l'**intention** (`mindset/<slug>/intention.md`) → nourrit la **voix** et le pourquoi ;
+- l'**agenda** (`mindset/<slug>/agenda.md`) → dit où loger le travail.
 
 **Compliance** n'est pas une étape de fin : c'est un **checkpoint transverse**.
 Le recommander après l'offre, après la marque, et sur tout contenu produit.
@@ -51,8 +83,9 @@ projets coexistent).
    le répertoire courant.
 2. **Écrire `ctp/project.json`** s'il n'existe pas : `{ "slug": "<slug>", "nom": "<nom>", "racine": "<chemin>" }`.
    Tous les chemins (`personas/`, `offres/`…) sont **relatifs à cette racine** — la relire à chaque lancement.
-3. **Créer l'arborescence** si absente : `personas/`, `offres/`, `positionnement/`,
-   `voix/`, `ctp/`. (Ne rien écraser, juste créer ce qui manque.)
+3. **Créer l'arborescence** si absente : `mindset/` (Partie 1), `personas/`,
+   `offres/`, `positionnement/`, `voix/`, `ctp/`. (Ne rien écraser, juste créer ce
+   qui manque.)
 4. **Injecter le bloc de persistance dans le `CLAUDE.md` du projet** s'il n'y est pas
    déjà (le créer s'il n'existe pas), pour que le travail soit rappelé à chaque session :
 
@@ -92,15 +125,17 @@ Ce réglage est lu par le skill `coach-zaki` (voir sa section « Modes »).
    `.claude-plugin/plugin.json` → champ `version`) : « CTP v<version> ». Si une
    nouveauté marquante existe pour cette version (voir `CHANGELOG.md`), la mentionner
    en quelques mots (« nouveau : Coach Zaki »).
-1. **Scanner le projet** — vérifier la présence ET le remplissage de :
-   `personas/*.md`, `offres/*.md`, `positionnement/*.md`, `voix/*.md`,
-   `landing/` (page de vente, étape 5), `ctp/tariqa-compliance.md`.
+1. **Scanner le projet — les deux moitiés** — vérifier la présence ET le remplissage de :
+   - **Partie 1 (état d'esprit)** : `mindset/<slug>/{bilan,ancrage,intention,posture,environnement,agenda,commencement}.md` ;
+   - **Partie 2 (Mon projet)** : `personas/*.md`, `offres/*.md`, `positionnement/*.md`, `voix/*.md`, `landing/` (page de vente, étape 5), `ctp/tariqa-compliance.md`.
    Pour chaque : **absent** / **présent mais incomplet** (contient des `⏳ à
    préciser` ou des sections vides) / **complet**.
-2. **Afficher la carte du parcours** avec un statut par étape :
+2. **Afficher la carte complète du pilier 1** (les deux moitiés), statut par étape :
    - ✅ complet · 🟡 commencé (des ⏳ restent) · ⬜ pas commencé.
-3. **Recommander la prochaine étape** = la première non complète dans l'ordre
-   canonique. Expliquer pourquoi en une ligne (dépendance).
+3. **Recommander la prochaine étape** = la première non complète, **Partie 1 avant
+   Partie 2**. Si l'état d'esprit n'est pas fait, lancer `ctp-mindset` ; on n'entre
+   pas dans Mon projet tant que **Le commencement** n'est pas validé. Expliquer
+   pourquoi en une ligne (dépendance).
 4. **Lancer** le skill correspondant (annoncer : « j'ouvre l'étape X »), ou
    laisser le membre choisir s'il veut faire autre chose — mais **prévenir** s'il
    saute une dépendance (« tu attaques l'offre sans persona — l'offre sera plus
@@ -134,16 +169,21 @@ Ce réglage est lu par le skill `coach-zaki` (voir sa section « Modes »).
 ## Affichage type (exemple)
 
 ```
-PARCOURS CTP — projet « benti-couture »
-1. Persona ............ 🟡 commencé (3 ⏳ ouverts)
-2. Offre .............. ⬜ pas commencé
-3. Marque ............. ⬜
-4. Voix ............... ⬜
-5. Page de vente ...... ⬜ (en ligne — hors e-commerce)
-6. Rayonner (YouTube) . ⬜ (plugin séparé — après le noyau)
-✓ Compliance .......... ⬜
+PILIER 1 — MINDSET — projet « benti-couture »
 
-→ Prochaine étape : finir le Persona (étape 1). J'ouvre `buyer-persona-architect` ?
+PARTIE 1 · L'état d'esprit (ctp-mindset)
+  0 Bilan ............. ✅   3 Toi ↔ toi-même .... 🟡
+  1 Ancrage ........... ✅   4 Environnement ..... ⬜
+  2 Toi ↔ Dieu ........ ✅   5 Agenda ............ ⬜
+                            6 Commencement ...... ⬜  (passage vers Partie 2)
+
+PARTIE 2 · Mon projet
+  1 Persona ........... ⬜   4 Voix .............. ⬜
+  2 Offre ............. ⬜   5 Page de vente ..... ⬜ (hors e-commerce)
+  3 Marque ............ ⬜   6 Rayonner (YouTube)  ⬜ (plugin séparé)
+  ✓ Compliance ........ ⬜
+
+→ Prochaine étape : finir « Toi ↔ toi-même » (module 3). Je continue `ctp-mindset` ?
 ```
 
 ## Rituel à chaque étape (repère + pédagogie) — non négociable

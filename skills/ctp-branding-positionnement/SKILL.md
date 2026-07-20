@@ -45,6 +45,9 @@ semaines sur sa marque sans jamais rien publier. **Ce skill produit une marque V
 Avant de commencer, charger ce qui existe :
 - **Persona** (`personas/<slug>.md`) → ce que la cible veut, son langage.
 - **Offre** (`offres/<slug>.md`) → ce que tu proposes, ta valeur.
+- **Le bilan de l'état d'esprit** (`mindset/<slug>/bilan.md`) → **l'avantage
+  non-égalitaire** : c'est le cœur du « pourquoi moi ». On le reprend tel quel,
+  on ne le redemande pas.
 Annoncer ce qu'on a chargé. Si l'un manque, le signaler et capter l'essentiel en
 express, sans bloquer.
 

@@ -37,7 +37,11 @@ Toujours annoncer le mode choisi en une ligne avant de commencer.
 
 ## Mode CREATE — interview qui produit le document
 
-1. Lire `references/methode.md` et `references/gabarit.md`.
+1. Lire `references/methode.md` et `references/gabarit.md`. **Si
+   `mindset/<slug>/bilan.md` existe**, le charger : pour un membre qui cherchait
+   encore quoi faire, les **directions** qui en sont sorties (croisement
+   savoir-faire × ce qui l'anime × un problème réel) sont le point de départ du
+   persona — on part de là, on ne redemande pas.
 2. Demander d'abord : nom court du persona + slug fichier (ex. `dirigeant-pme`).
 3. **Mener l'interview une question à la fois.** Jamais de bloc de 10 questions.
    - Poser 1 question → attendre la réponse → reformuler ce qu'on a compris →

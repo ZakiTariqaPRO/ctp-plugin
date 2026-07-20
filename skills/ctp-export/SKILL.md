@@ -1,6 +1,6 @@
 ---
 name: ctp-export
-description: Compile tous les livrables CTP d'un projet (persona, offre, positionnement, voix, compliance) en un seul fichier vérifiable avec scorecard de complétion, GÉNÈRE un pitch puissant (méthode SIRA, < 3 min) à partir de toutes les données, et maintient un document de référence vivant consulté pour la suite du projet. Use when the user asks "exporter mon travail CTP", "générer le livrable", "compiler mes docs", "export CTP", "préparer pour envoi", "rapport de mon projet", "génère mon pitch", "crée mon pitch", "mon elevator pitch", or wants a single shareable text of all CTP work.
+description: Compile TOUT le pilier 1 (Mindset) — les deux moitiés : l'état d'esprit (bilan, ancrage, intention, posture, environnement, agenda, commencement + le carnet des remèdes personnalisé) ET Mon projet (persona, offre, marque, voix, page de vente, compliance) — en un livrable vérifiable avec scorecard, GÉNÈRE un pitch puissant (méthode SIRA, < 3 min), et maintient un document de référence vivant. Use when the user asks "exporter mon travail CTP", "générer le livrable", "compiler mes docs", "export CTP", "export complet du parcours", "préparer pour envoi", "rapport de mon projet", "génère mon pitch", "crée mon pitch", "mon elevator pitch", "mon carnet de remèdes", or wants a single shareable deliverable of all CTP work.
 metadata:
   version: 1.3.0
   category: tariqa-pro
@@ -12,15 +12,37 @@ Compile les documents de référence CTP d'un projet en **un seul texte** que le
 membre peut envoyer (WhatsApp, email, Drive) et que l'animateur peut **vérifier**
 d'un coup d'œil : qui a vraiment fait le travail, et où ça reste à compléter.
 
-## Sources compilées (dans l'ordre du parcours)
+## Sources compilées — TOUT le pilier 1, les deux moitiés
 
+L'export imbrique **l'état d'esprit ET Mon projet**, dans l'ordre du parcours.
+
+**Partie 1 — L'état d'esprit** (skill `ctp-mindset`)
+| Module | Fichier |
+|---|---|
+| Le bilan | `mindset/<slug>/bilan.md` |
+| L'ancrage | `mindset/<slug>/ancrage.md` |
+| Toi ↔ Dieu (intention) | `mindset/<slug>/intention.md` |
+| Toi ↔ toi-même (posture) | `mindset/<slug>/posture.md` |
+| Toi ↔ ton environnement | `mindset/<slug>/environnement.md` |
+| Le rituel & l'agenda | `mindset/<slug>/agenda.md` |
+| Le commencement | `mindset/<slug>/commencement.md` |
+| **Le carnet des remèdes** (personnalisé sur les blocages du membre) | `mindset/<slug>/carnet-remedes.html` |
+
+**Partie 2 — Mon projet**
 | Étape | Fichier |
 |---|---|
 | Persona | `personas/<slug>.md` |
 | Offre | `offres/<slug>.md` |
 | Marque (branding + positionnement + différenciateur) | `positionnement/<slug>.md` |
 | Voix | `voix/<slug>.md` |
+| Page de vente | `landing/` + URL |
 | Compliance | `ctp/tariqa-compliance.md` |
+
+Le **carnet des remèdes** se génère depuis `ctp-mindset/references/remedes-spirituels.md`
+(la pharmacopée, rangée par blocage) et le gabarit
+`ctp-mindset/references/carte-remedes-modele.html`, **filtré sur les blocages
+diagnostiqués du membre** (lus dans `posture.md`, `ancrage.md`, `ETAT.md`) —
+rangé par problème, trois versions par remède (arabe / phonétique / français).
 
 ## Deux entrées
 
@@ -48,6 +70,12 @@ d'un coup d'œil : qui a vraiment fait le travail, et où ça reste à compléte
 6. **Générer le PITCH (méthode SIRA)** à partir de persona/offre/positionnement/voix —
    suivre `references/pitch.md`. L'inclure dans l'export ET dans le doc de référence.
    Si une brique manque (ex. offre non définie), faire un pitch partiel + le signaler.
+6bis. **Générer le carnet des remèdes** — filtrer
+   `ctp-mindset/references/remedes-spirituels.md` (la pharmacopée, par blocage) sur
+   les **blocages diagnostiqués du membre** (`posture.md`, `ancrage.md`, `ETAT.md`),
+   et produire `mindset/<slug>/carnet-remedes.html` depuis le gabarit
+   `ctp-mindset/references/carte-remedes-modele.html` — **rangé par problème**, trois
+   versions par remède. Ne garder que les problèmes du membre, pas toute la pharmacopée.
 7. **Mettre à jour le document de référence vivant** `ctp/REFERENCE-<slug>.md`
    (voir section dédiée) — c'est le doc consolidé à consulter pour toute la suite.
 8. Proposer un **export HTML** lisible si demandé (un seul fichier autonome), et un
@@ -61,42 +89,69 @@ d'un coup d'œil : qui a vraiment fait le travail, et où ça reste à compléte
 ## Gabarit du fichier d'export
 
 ```markdown
-# Livrable CTP — <Nom du projet>
+# Livrable Pilier 1 (Mindset) — <Nom du projet>
 > Membre : <nom> · Date : <AAAA-MM-JJ> · Généré par skill `ctp-export`
 
-## Scorecard de complétion
+## Scorecard de complétion — le pilier complet
+**Partie 1 — L'état d'esprit**
+| Module | Statut | Points ouverts |
+|---|---|---|
+| 0. Bilan | ✅ / 🟡 / ⬜ | <n ⏳> |
+| 1. Ancrage | … | … |
+| 2. Toi ↔ Dieu | … | … |
+| 3. Toi ↔ toi-même | … | … |
+| 4. Environnement | … | … |
+| 5. Agenda | … | … |
+| 6. Commencement | … | … |
+
+**Partie 2 — Mon projet**
 | Étape | Statut | Points ouverts |
 |---|---|---|
 | 1. Persona | ✅ / 🟡 / ⬜ | <n ⏳> |
 | 2. Offre | … | … |
 | 3. Marque | … | … |
 | 4. Voix | … | … |
+| 5. Page de vente | <URL ou ⬜> | … |
 | ✓ Compliance | … | dernier verdict : <✅/⚠️/❌ + date> |
 
-**Avancement global : <X>/4 étapes complètes.**
+**Avancement global : <X>/7 modules d'état d'esprit · <Y>/4 étapes Mon projet.**
 
 ## Points encore à préciser (⏳)
-- [Persona] <…>
-- [Offre] <…>
-- …
+- [module/étape] <…>
 
 ---
+# PARTIE 1 — L'état d'esprit
+
+## 0. Le bilan
+<contenu intégral de mindset/<slug>/bilan.md>
+## 1. L'ancrage
+<contenu intégral de mindset/<slug>/ancrage.md>
+## 2. Toi ↔ Dieu — l'intention
+<contenu intégral de mindset/<slug>/intention.md>
+## 3. Toi ↔ toi-même — la posture
+<contenu intégral de mindset/<slug>/posture.md>
+## 4. Toi ↔ ton environnement
+<contenu intégral de mindset/<slug>/environnement.md>
+## 5. Le rituel & l'agenda
+<contenu intégral de mindset/<slug>/agenda.md>
+## 6. Le commencement
+<contenu intégral de mindset/<slug>/commencement.md>
+
+## ✦ Le carnet des remèdes
+<le carnet personnalisé — rangé par les blocages diagnostiqués du membre ;
+chaque remède en 3 versions (arabe / phonétique / français) ; lien vers le HTML imprimable>
+
+---
+# PARTIE 2 — Mon projet
+
 ## 1. Persona
 <contenu intégral de personas/<slug>.md>
-
----
 ## 2. Offre
 <contenu intégral de offres/<slug>.md>
-
----
 ## 3. Marque (branding + positionnement)
 <contenu intégral de positionnement/<slug>.md>
-
----
 ## 4. Voix
 <contenu intégral de voix/<slug>.md>
-
----
 ## ✓ Compliance
 <contenu intégral de ctp/tariqa-compliance.md>
 
@@ -111,9 +166,10 @@ d'un coup d'œil : qui a vraiment fait le travail, et où ça reste à compléte
 À sortir dans un bloc de code, court :
 
 ```
-LIVRABLE CTP — <projet> — <date>
-Avancement : <X>/4 étapes complètes
-Persona ✅ · Offre 🟡 · Marque ⬜ · Voix ⬜ · Compliance ⬜
+LIVRABLE PILIER 1 (MINDSET) — <projet> — <date>
+État d'esprit : <X>/7 modules · Mon projet : <Y>/4 étapes
+Bilan ✅ · Ancrage ✅ · Toi↔Dieu ✅ · Toi↔toi 🟡 · Env ⬜ · Agenda ⬜ · Commencement ⬜
+Persona ⬜ · Offre ⬜ · Marque ⬜ · Voix ⬜ · Compliance ⬜
 Page de vente en ligne : <URL ou ⬜ pas encore>
 Points ouverts : <n>
 Fichier complet : ctp/EXPORT-<slug>-<date>.md
