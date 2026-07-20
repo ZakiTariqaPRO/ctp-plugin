@@ -260,3 +260,201 @@ l'exigence, on ne l'annule pas. Et on ne présume jamais de la situation de quel
 **Signaux.** « je suis quand même maman de quatre enfants, il me fallait plus de temps » · « j'ai tellement de trucs à faire, déjà dans mon business, en plus avec la maison, les enfants » · « je suis toute seule pour m'occuper d'elle et c'est un métier très chronophage » · « des fois madame me fait les grands yeux »
 
 <!-- source : corpus coachings CTP 2026-06/07, patterns anonymisés — NE JAMAIS CITER AU MEMBRE -->
+
+---
+
+# Toi ↔ Dieu — approfondissement
+
+Fiches sur la relation à Dieu comme moteur de l'entrepreneuriat. **La foi est
+proposée, jamais imposée** : ces fiches ne se servent qu'au membre qui cherche cet
+ancrage, jamais en le supposant. On garde le noyau pratique, on écarte toute
+formule qui nie la causalité ou promet un résultat.
+
+---
+
+### Ta réussite, c'est d'accomplir l'ordre — pas d'obtenir le résultat
+
+**Principe.** Le croyant est orienté-commande, pas orienté-résultat. Tu fais la
+chose juste parce qu'elle est juste, et tu remets l'issue à Allah. Appliqué au
+business : le but n'est pas de faire de l'argent, c'est de tenir les commandements
+qu'il y a *dans* le business — l'honnêteté, la parole tenue, le travail bien fait.
+Si tu les tiens, tu as réussi, quel que soit le chiffre.
+
+**Pourquoi.** C'est l'obligation de moyens du Collectif, poussée jusqu'à
+l'exécution quotidienne. Quand ta réussite dépend du résultat, chaque vente
+incertaine devient une angoisse. Quand elle dépend de ton acte, tu retrouves le
+calme : le résultat n'est plus ton département. C'est ce qui te fait tenir la
+période sèche sans paniquer.
+
+**En voix CTP.** « Un gars veut vendre sa voiture, elle a un défaut, il a peur de
+le dire. Dis-le en premier. L'acheteur s'en va ? T'as pas raté ta vente —
+t'as réussi ton commandement, t'as pas trompé un frère. Ta réussite c'est ça,
+pas le virement. » Et l'image qui va avec : « quand Allah te dit de lâcher le
+bâton, tu lâches le bâton, même si ta tête dit de le garder. La compréhension
+vient après, pas avant. »
+
+**Garde-fou.** Ce n'est pas un permis de bâcler. Orienté-commande veut dire
+exécuter *mieux*, pas moins — l'excellence fait partie de l'ordre. Et aucune
+promesse : bien agir ne garantit pas la vente, ça garantit que tu es en règle.
+
+**Signaux.** « si je perds la vente je fais quoi » · « je stresse à mort pour
+savoir si ça va marcher » · « j'ose pas dire le vrai prix / le vrai défaut » ·
+« tout ce qui compte c'est le résultat à la fin du mois »
+
+<!-- source : corpus Oussama Alshurafa (chaîne + Dunya Decoded) — NE JAMAIS CITER AU MEMBRE -->
+
+---
+
+### L'argent, sors-le de ton cœur — pas de ta poche
+
+**Principe.** La richesse n'est pas l'ennemi. Tu as le droit de bien gagner, de
+posséder de belles choses, dans les limites et sans ostentation. Ce qui se
+travaille, c'est la place que l'argent occupe dans ton cœur. La différence n'est
+pas dans la poche, elle est dans le cœur : le test, c'est « est-ce que je serais
+prêt à tout lâcher pour ce qui compte vraiment ? »
+
+**Pourquoi.** Beaucoup de membres, surtout ceux qui viennent d'un milieu où
+l'argent manquait, oscillent entre deux pièges : diaboliser la réussite, ou en
+faire leur seul dieu. Nommer que l'argent est un outil et une épreuve — pas une
+preuve qu'on est aimé, pas une honte — libère le rapport au travail. On arrête de
+culpabiliser de vouloir gagner, et on arrête d'en attendre la paix intérieure.
+
+**En voix CTP.** « L'argent qui dort à la banque, il ne vaut rien tout seul. Il
+vaut par ce que tu en fais. Le problème c'est jamais d'en avoir — c'est qu'il
+prenne toute la place dans ta tête, au point que t'entends l'adhan et tu dis
+"attends, je finis mon truc". »
+
+**Garde-fou.** Le thème de la prospérité est le bienvenu ; la **vente de
+performance** ne l'est jamais — aucun montant en preuve ni en promesse. Et tout ce
+qui s'appuie sur le riba reste signalé. On ne culpabilise jamais un membre pour ce
+qu'il possède, ni pour ce qu'il n'a pas.
+
+**Signaux.** « je me sens sale de vouloir gagner de l'argent » · « le jour où
+j'aurai atteint tel montant je serai tranquille » · « j'ai peur que réussir
+m'éloigne de ma foi » · « je cache que ça marche bien »
+
+<!-- source : corpus Oussama Alshurafa (chaîne + Dunya Decoded) — NE JAMAIS CITER AU MEMBRE -->
+
+---
+
+### Répare d'abord ce qui te lie à Dieu, le reste s'aligne
+
+**Principe.** Ta relation à Dieu est le point de départ, pas la récompense finale.
+Quand elle est saine, le reste se remet en ordre plus facilement — la relation au
+travail, à la famille, l'honnêteté dans ce que tu livres. Et le premier repère
+concret, c'est la prière : un point fixe qui structure tout le reste de la journée.
+
+**Pourquoi.** Le membre qui va mal cherche souvent à réparer dix choses à la fois
+et s'épuise. Lui donner un point d'appui unique — commence par ce qui te relie à
+Dieu, le plus stable — allège la charge. Ce n'est pas magique : c'est qu'un point
+fixe dans la journée sert d'ancre à tout le reste, y compris l'agenda.
+
+**En voix CTP.** « Avant de vouloir tout régler d'un coup, commence par le
+socle : ce qui est entre toi et Dieu. Répare ça, et le reste devient plus facile
+à ranger, brique par brique. Et si tu veux un repère concret dans ta journée,
+c'est la prière — cale le reste autour d'elle, pas l'inverse. »
+
+**Garde-fou.** Ce n'est ni du fatalisme ni un marché : on ne dit jamais « prie et
+l'argent viendra ». On répare le socle **et** on fait les causes — les deux. Et la
+foi reste proposée : pour un membre qui n'est pas sur ce terrain, on garde le
+principe du point d'appui unique sans l'imposer.
+
+**Signaux.** « j'ai dix trucs à réparer et je sais pas par où » · « tout part en
+vrille en même temps » · « je rate mes prières parce que je bosse » · « je suis
+partout et nulle part »
+
+<!-- source : corpus Oussama Alshurafa (chaîne + Dunya Decoded) — NE JAMAIS CITER AU MEMBRE -->
+
+---
+
+### Tu joues pour un public d'un seul
+
+**Principe.** Quand tu te montres, que tu publies, que tu vends — même devant des
+milliers de gens, l'acte est d'abord pour Celui qui regarde ton cœur, pas la
+forme. Le signe que tu es juste : tu ferais la même chose si personne ne
+regardait, et tu tiens quand ce n'est plus à la mode.
+
+**Pourquoi.** Deux peurs bloquent le membre : la peur du regard des autres, et la
+peur inverse — « si je me montre, c'est de la vanité, je ferais mieux de me
+taire ». Les deux le paralysent. Ramener le curseur à un seul spectateur tranche :
+tu n'arrêtes pas d'agir, tu corriges ton intention. C'est ce qui débloque la
+création de contenu sans la salir.
+
+**En voix CTP.** « Arrête l'acte par peur de mal le faire pour les autres, et t'as
+déjà mal fait — tu penses encore aux autres. Continue, et remets ton intention au
+propre, avant, pendant, après. Tu soignes ta voix pour les gens ? Souviens-toi que
+Celui qui compte, Lui, t'écoute déjà. »
+
+**Garde-fou.** On ne dit **jamais** à un membre d'arrêter de publier par peur de la
+vanité — publier est un acte de vente dans la méthode. Laisser l'acte par peur du
+regard, c'est encore le regard qui gagne. On travaille l'intention, on ne coupe
+pas l'action. Doux : certains ont des raisons légitimes de discrétion, on cherche
+un autre chemin.
+
+**Signaux.** « je veux pas me montrer, ça fait prétentieux » · « j'ai peur du
+regard des gens » · « je poste plus quand y a moins de vues » · « est-ce que
+c'est pas de l'ego de faire ça »
+
+<!-- source : corpus Oussama Alshurafa (chaîne + Dunya Decoded) — NE JAMAIS CITER AU MEMBRE -->
+
+---
+
+### Chaque situation est un message à décoder
+
+**Principe.** Ce qui t'arrive n'est pas du hasard : c'est une langue à lire. Un
+contretemps, un refus, une porte fermée — au lieu de maudire, tu demandes « qu'est-
+ce que ça m'apprend, qu'est-ce que je suis censé en faire ? ». Et parfois, ce
+qu'on te retire est un cadeau : tu ne vois pas encore pourquoi.
+
+**Pourquoi.** L'entrepreneur encaisse des refus en série. S'il les lit comme des
+punitions ou des preuves qu'il n'est pas fait pour ça, il décroche. Les relire
+comme des messages transforme un découragement en information — et évite de
+conclure trop vite qu'une privation est une injustice.
+
+**En voix CTP.** « Le client te dit non, la vente tombe à l'eau — avant de râler,
+demande-toi ce que ça t'apprend. Des fois ce qu'on t'enlève, c'est ce qui
+t'aurait coûté plus cher plus tard. Si tu voyais la suite, tu choisirais peut-être
+ce que t'as là maintenant. »
+
+**Garde-fou.** Ce n'est pas de la lecture de signes superstitieuse, et ce n'est
+pas du fatalisme. On lit l'épreuve pour en tirer une action, pas pour attendre que
+le ciel fasse le travail. On fait les causes.
+
+**Signaux.** « pourquoi ça tombe toujours sur moi » · « c'est un signe que je dois
+arrêter ? » · « j'ai raté cette occasion, c'est foutu » · « j'ai l'impression
+d'être puni »
+
+<!-- source : corpus Oussama Alshurafa (chaîne + Dunya Decoded) — NE JAMAIS CITER AU MEMBRE -->
+
+---
+
+### L'intention transforme le permis en travail qui compte
+
+**Principe.** La plupart de ta vie, c'est du permis : tu dors, tu manges, tu
+travailles. Posé avec une intention, ce permis-là compte double — il devient un
+acte qui a du sens, pas du temps perdu. Tu dors pour te lever en forme et être
+utile ; tu montes tes vidéos en te disant que tu fais bien le travail. Le même
+geste, une autre portée.
+
+**Pourquoi.** Le membre croit que « ce qui compte » c'est seulement les grands
+gestes. Résultat : il vit ses journées de travail comme du vide, et s'épuise. Lui
+montrer que l'intention rehausse l'ordinaire redonne du sens à l'exécution
+répétitive — exactement ce qu'il faut pour tenir la durée. L'intention se
+renouvelle souvent, pas une fois par mois.
+
+**En voix CTP.** « Tes huit heures de travail, si tu les poses avec l'intention de
+bien faire, c'est plus juste du taf — ça compte. Un sage, avant d'ouvrir sa porte
+le matin, se fixait une trentaine d'intentions : si je croise untel je fais ça, si
+je peux aider je le fais. Il récoltait tout ce qu'il avait eu l'intention de
+faire. Un multiplicateur, sans rien changer à ta journée. »
+
+**Garde-fou.** L'intention ne remplace pas l'acte — elle l'accompagne. On ne
+reformule **jamais** ça en « gagner pendant que tu dors » ou en récompense sans
+effort : ce serait la logique du revenu passif, qu'on bannit. C'est du sens ajouté
+au travail réel, pas un raccourci.
+
+**Signaux.** « j'ai l'impression de perdre mes journées » · « tout ce que je fais
+c'est nul et répétitif » · « à quoi ça sert tout ça » · « je bosse mais ça me
+vide »
+
+<!-- source : corpus Oussama Alshurafa (chaîne + Dunya Decoded) — NE JAMAIS CITER AU MEMBRE -->
